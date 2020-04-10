@@ -64,6 +64,8 @@ nav{
         height:92vh;
         top:8vh;
         background-color: #5d4954;
+        display:flex;
+        
 
     }
 }
