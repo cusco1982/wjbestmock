@@ -40,6 +40,7 @@ nav{
 
 .burger{
     display:none;
+    cursor: pointer;
 }
 
 .burger div{
@@ -72,6 +73,11 @@ nav{
         align-items: center;
         width:50%;
         transform:translatex(100%);
-
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .burger{
+        display: block;
     }
 }
