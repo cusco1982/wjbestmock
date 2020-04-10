@@ -9,6 +9,11 @@ nav{
     justify-content:space-around;
     align-items: center;
     min-height: 8vh;
-    /* background-color: #5d4954; */
+    background-color: #5d4954;
     font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color: rgb(228, 228, 228);
+    text-transform: uppercase;
 }
