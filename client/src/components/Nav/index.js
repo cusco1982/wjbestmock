@@ -2,6 +2,18 @@ import React from "react";
 import "./style.css";
 
 function Nav() {
+
+
+
+
+
+  const navSlide = () => document.querySelector('.burger');
+  const nav = document.querySelector('.nav-links');
+  
+
+
+
+
   return (
     <nav>
       <div className="logo">
