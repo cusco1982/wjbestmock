@@ -45,6 +45,7 @@ function Nav() {
       <div className="logo">
         <h4>the nav</h4>
       </div>
+      <div className="phone-number">1-732-777-4444</div>
       <ul className='nav-links'>
         <li><a href="/">Home</a></li>
         <li><a href="#">Services</a></li>
