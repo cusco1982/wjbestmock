@@ -20,6 +20,11 @@ nav{
     font-size:20px;
 }
 
+.phone-number {
+    color:white;
+    font-size: 25px;
+}
+
 .nav-links{
     display: flex;
     justify-content: space-around;
@@ -107,8 +112,4 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
-}
-
-.phone-number {
-    color:white;
 }
