@@ -24,7 +24,6 @@ nav{
     color:white;
     font-size: 25px;
 }
-
 .nav-links{
     display: flex;
     justify-content: space-around;
