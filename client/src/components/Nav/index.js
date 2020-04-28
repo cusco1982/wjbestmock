@@ -7,8 +7,8 @@ class Nav extends React.Component {
   render() {
     return (
       <div>
-        This home
-    </div>
+        <i class="fas fa-bars"></i>
+      </div>
     )
   }
 }
