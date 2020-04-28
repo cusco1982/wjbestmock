@@ -3,13 +3,14 @@ import "./style.css";
 
 
 
-function Nav() {
-
-
-  return (
-
-    <div></div>
-  );
+class Nav extends React.Component {
+  render() {
+    return (
+      <div>
+        This home
+    </div>
+    )
+  }
 }
 
 export default Nav;
