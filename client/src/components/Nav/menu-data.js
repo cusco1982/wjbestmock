@@ -15,4 +15,4 @@ export const menuData = [
         label: 'Contact Us',
         url:'https://www.google.com'
     }
-]
+];
