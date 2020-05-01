@@ -26,6 +26,7 @@ class Nav extends React.Component {
         ) }
 
       </div>
+
     )
   }
 }
