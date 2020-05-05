@@ -30,21 +30,40 @@ class App extends Component {
   backdropClickHandler = () => {
     this.setState({sideDrawerOpen: false});
   };
-  
 
-  return(
-    <Router>
-  <div>
-    <Nav />
-    {/* <Jumbotron /> */}
-    <Switch>
-      {/* <Route exact path="/" component={Books}/> */}
-      {/* <Route exact path="/saved" component={Books}/> */}
-      <Route exact path="/" component={Main} />
-    </Switch>
-  </div>
-    </Router >
-  )
+
+  // return(
+  //   <Router>
+  // <div>
+  //   <Nav />
+  //   {/* <Jumbotron /> */}
+  //   <Switch>
+  //     {/* <Route exact path="/" component={Books}/> */}
+  //     {/* <Route exact path="/saved" component={Books}/> */}
+  //     <Route exact path="/" component={Main} />
+  //   </Switch>
+  // </div>
+  //   </Router >
+  // )
+
+  render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler} />
+    }
+    return (
+      <div style={{height: '100%'}}>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        <main style={{marginTop: '64px'}}>
+          <p>This is the page content!</p>
+        </main>
+        
+      </div>
+    );
+  }
 }
 
 export default App;
