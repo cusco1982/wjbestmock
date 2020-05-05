@@ -21,6 +21,16 @@ class App extends Component {
     sideDrawerOpen: false
   };
 
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+    });
+  };
+
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  };
+  
 
   return(
     <Router>
