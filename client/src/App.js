@@ -64,7 +64,7 @@ class App extends Component {
     return (
 
       <Router>
-        <div style={{marginTop: '64px'}}>
+        <div style={{marginTop: '60px'}}>
 
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
