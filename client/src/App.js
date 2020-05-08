@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import Jumbotron from "./components/Jumbotron";
 // import Nav from "./components/Nav";
 // import Books from "./pages/Books";
-// import Main from "./pages/Main";
+
+import Main from "./pages/Main";
+import Contact from "./pages/Contact";
 
 
 import Wrapper from "./components/Wrapper";
@@ -52,6 +54,7 @@ class App extends Component {
   // )
 
   render() {
+    
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
@@ -69,7 +72,9 @@ class App extends Component {
 
           {/* <Navbar /> */}
           <Wrapper>
-            <Route exact path="/" component={About} />
+            <Route exact path="/" component={Main} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
             {/* <Route exact path="/about" component={About} /> */}
             {/* <Route exact path="/discover" component={Discover} /> */}
             {/* <Route exact path="/search" component={Search} /> */}
