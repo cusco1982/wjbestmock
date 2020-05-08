@@ -52,16 +52,27 @@ class App extends Component {
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
+
     return (
-      <div style={{height: '100%'}}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backdrop}
-        <main style={{marginTop: '64px'}}>
-          <p>This is the page content!</p>
-        </main>
-        
-      </div>
+
+      <Router>
+        <div style={{marginTop: '64px'}}>
+
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+
+          {/* <Navbar /> */}
+          <Wrapper>
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/discover" component={Discover} />
+            <Route exact path="/search" component={Search} />
+          </Wrapper>
+          <Footer />
+        </div>
+      </Router>
+
     );
   }
 }
