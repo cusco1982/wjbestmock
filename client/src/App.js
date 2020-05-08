@@ -6,6 +6,10 @@ import Nav from "./components/Nav";
 import Main from "./pages/Main";
 
 
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
+
+
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
