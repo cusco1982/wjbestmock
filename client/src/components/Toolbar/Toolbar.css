@@ -21,7 +21,10 @@
 }
 
 .toolbar__logo {
-  margin-left: 1rem;
+  color: rgb(228, 228, 228);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size:20px;
 }
 
 .toolbar__logo a {
