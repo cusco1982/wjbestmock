@@ -48,20 +48,19 @@ class App extends Component {
       <Router>
         
         <div style={{ marginTop: '60px' }}>
+
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-
           {/* <Navbar /> */}
+
           <Wrapper>
             <Route exact path="/" component={Main} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
-            {/* <Route exact path="/about" component={About} /> */}
-            {/* <Route exact path="/discover" component={Discover} /> */}
-            {/* <Route exact path="/search" component={Search} /> */}
           </Wrapper>
           <Footer />
+
         </div>
 
       </Router>
