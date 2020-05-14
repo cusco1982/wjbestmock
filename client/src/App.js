@@ -19,29 +19,33 @@ import Backdrop from './components/Backdrop/Backdrop';
 
 class App extends Component {
 
+
+  //  ------------------------------------ nav state --------------------------------------->>>
   state = {
     sideDrawerOpen: false
   };
-
-
-
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
-
   backdropClickHandler = () => {
     this.setState({ sideDrawerOpen: false });
   };
+  //  -------------------------- nav dropbuttonfunc & drawerclosebuttonfunc ---------------------------------->>>
+
+
 
   render() {
 
-    let backdrop;
 
+  // nav stuff ------------------------------------------------------//
+    let backdrop;
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
+  // nav stuff ------------------------------------------------------//
+
 
     return (
 
@@ -49,27 +53,27 @@ class App extends Component {
         
         <div style={{ marginTop: '60px' }}>
 
+    {/* -------------------------------------------- nav component -------------------------------------------- ******/}
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           {/* <Navbar /> */}
+    {/* -------------------------------------------- nav component -------------------------------------------- ******/}
 
           <Wrapper>
             <Route exact path="/" component={Main} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
           </Wrapper>
-          
+
           <Footer />
 
         </div>
 
       </Router>
-
     );
   }
 }
-
 export default App;
 
 
