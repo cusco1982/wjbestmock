@@ -1,19 +1,20 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-// import Jumbotron from "./components/Jumbotron";
-// import Nav from "./components/Nav";
-// import Books from "./pages/Books";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
+// pages
 import Main from "./pages/Main";
 import Contact from "./pages/Contact";
-
-import Wrapper from "./components/Wrapper";
-import Footer from "./components/Footer";
 import About from "./pages/About";
 
+// components
+import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
+
+  //  ------------------------------------ nav imports --------------------------------------->>>
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
+  //  ------------------------------------ nav imports --------------------------------------->>>
 
 
 
@@ -76,17 +77,16 @@ class App extends Component {
 }
 export default App;
 
-
-  // return(
-  //   <Router>
-  // <div>
-  //   <Nav />
-  //   {/* <Jumbotron /> */}
-  //   <Switch>
-  //     {/* <Route exact path="/" component={Books}/> */}
-  //     {/* <Route exact path="/saved" component={Books}/> */}
-  //     <Route exact path="/" component={Main} />
-  //   </Switch>
-  // </div>
-  //   </Router >
-  // )
+// return(
+//   <Router>
+// <div>
+//   <Nav />
+//   {/* <Jumbotron /> */}
+//   <Switch>
+//     {/* <Route exact path="/" component={Books}/> */}
+//     {/* <Route exact path="/saved" component={Books}/> */}
+//     <Route exact path="/" component={Main} />
+//   </Switch>
+// </div>
+//   </Router >
+// )
