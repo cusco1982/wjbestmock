@@ -7,12 +7,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from "./pages/Main";
 import Contact from "./pages/Contact";
 
-
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import About from "./pages/About";
-
-
 
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -20,41 +17,26 @@ import Backdrop from './components/Backdrop/Backdrop';
 
 
 
-
 class App extends Component {
-
 
   state = {
     sideDrawerOpen: false
   };
 
+
+
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
-      return {sideDrawerOpen: !prevState.sideDrawerOpen};
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
 
   backdropClickHandler = () => {
-    this.setState({sideDrawerOpen: false});
+    this.setState({ sideDrawerOpen: false });
   };
 
-
-  // return(
-  //   <Router>
-  // <div>
-  //   <Nav />
-  //   {/* <Jumbotron /> */}
-  //   <Switch>
-  //     {/* <Route exact path="/" component={Books}/> */}
-  //     {/* <Route exact path="/saved" component={Books}/> */}
-  //     <Route exact path="/" component={Main} />
-  //   </Switch>
-  // </div>
-  //   </Router >
-  // )
-
   render() {
-    
+
     let backdrop;
 
     if (this.state.sideDrawerOpen) {
@@ -64,8 +46,8 @@ class App extends Component {
     return (
 
       <Router>
-        <div style={{marginTop: '60px'}}>
-
+        
+        <div style={{ marginTop: '60px' }}>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
@@ -81,6 +63,7 @@ class App extends Component {
           </Wrapper>
           <Footer />
         </div>
+
       </Router>
 
     );
@@ -88,3 +71,18 @@ class App extends Component {
 }
 
 export default App;
+
+
+  // return(
+  //   <Router>
+  // <div>
+  //   <Nav />
+  //   {/* <Jumbotron /> */}
+  //   <Switch>
+  //     {/* <Route exact path="/" component={Books}/> */}
+  //     {/* <Route exact path="/saved" component={Books}/> */}
+  //     <Route exact path="/" component={Main} />
+  //   </Switch>
+  // </div>
+  //   </Router >
+  // )
