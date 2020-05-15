@@ -52,7 +52,7 @@ class App extends Component {
 
       <Router>
         
-        <div style={{ marginTop: '60px' }}>
+        <div>
 
     {/* -------------------------------------------- nav component -------------------------------------------- ******/}
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
