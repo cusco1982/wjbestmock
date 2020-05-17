@@ -65,6 +65,7 @@ class App extends Component {
             <Route exact path="/" component={Main} />
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path="/contact" component={Contact} />
           </Wrapper>
 
           <Footer />
