@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // pages
 import Main from "./pages/Main";
-import About from "./pages/About";
+import Services from "./pages/Services";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
@@ -64,7 +64,7 @@ class App extends Component {
 
           <Wrapper>
             <Route exact path="/" component={Main} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/services" component={Services} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
           </Wrapper>

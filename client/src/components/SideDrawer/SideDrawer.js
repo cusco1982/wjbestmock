@@ -14,7 +14,7 @@ const sideDrawer = props => {
           <a href="/">Main</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/services">Services</a>
         </li>
         <li>
           <a href="/portfolio">Portfolio</a>

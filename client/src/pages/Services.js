@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function About() {
+function Services() {
   return (
     <div>
       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
@@ -61,4 +61,4 @@ function About() {
   );
 }
 
-export default About;
+export default Services;
