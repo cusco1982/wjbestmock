@@ -11,7 +11,7 @@ const toolbar = props => (
 
         <div className="logo"><a href="/">THE LOGO</a></div>
 
-        <div className="spacer" />
+        {/* <div className="spacer" /> */}
 
         <div className="nav-links">
             <ul>
