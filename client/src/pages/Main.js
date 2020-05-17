@@ -16,11 +16,6 @@ class Main extends Component {
             <Wrapper>
                 <div>
 
-                    <div>
-
-
-
-                    </div>
 
 
                 </div>
