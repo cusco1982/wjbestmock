@@ -9,7 +9,7 @@ const toolbar = props => (
 
 
 
-        <div className="toolbar__logo"><a href="/">THE LOGO</a></div>
+        <div className="logo"><a href="/">THE LOGO</a></div>
 
         <div className="spacer" />
 
