@@ -22,7 +22,7 @@ const toolbar = props => (
             </ul>
         </div>
 
-        <div className="toolbar__toggle-button">
+        <div className="burger">
             <DrawerToggleButton click={props.drawerClickHandler} />
         </div>
 

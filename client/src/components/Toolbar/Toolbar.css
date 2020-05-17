@@ -73,7 +73,7 @@
 }
 
 @media (min-width: 769px) {
-  .toolbar__toggle-button {
+  .burger {
     display: none;
   }
 
