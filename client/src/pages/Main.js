@@ -13,16 +13,19 @@ class Main extends Component {
 
     render() {
         return (
-            <div>
-
+            <Wrapper>
                 <div>
 
+                    <div>
+
+
+
+                    </div>
 
 
                 </div>
+            </Wrapper>
 
-
-            </div>
         )
     }
 
