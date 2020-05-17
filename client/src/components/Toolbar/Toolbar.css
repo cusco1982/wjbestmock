@@ -45,29 +45,29 @@
   flex: 1;
 }
 
-.toolbar_navigation-items ul {
+.nav-links ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.toolbar_navigation-items li {
+.nav-links li {
   padding: 0 0.5rem;
 }
 
-.toolbar_navigation-items a {
+.nav-links a {
   color: white;
   text-decoration: none;
 }
 
-.toolbar_navigation-items a:hover,
-.toolbar_navigation-items a:active {
+.nav-links a:hover,
+.nav-links a:active {
   color: #fa923f;
 }
 
 @media (max-width: 768px) {
-  .toolbar_navigation-items {
+  .nav-links {
     display: none;
   }
 }

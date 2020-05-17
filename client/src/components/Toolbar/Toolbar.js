@@ -4,8 +4,8 @@ import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import './Toolbar.css';
 
 const toolbar = props => (
-  <header className="toolbar">
-    <nav className="toolbar__navigation">
+  // <header className="toolbar">
+    <nav className="toolbar">
 
 
 
@@ -13,7 +13,7 @@ const toolbar = props => (
 
         <div className="spacer" />
 
-        <div className="toolbar_navigation-items">
+        <div className="nav-links">
             <ul>
                 <li><a href="/">Main</a></li>
                 <li><a href="/services">Services</a></li>
@@ -27,7 +27,7 @@ const toolbar = props => (
         </div>
 
     </nav>
-  </header>
+  // </header>
 );
 
 export default toolbar;
