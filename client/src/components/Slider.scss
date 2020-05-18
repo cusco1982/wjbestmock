@@ -12,5 +12,14 @@
 .slide{
     border: 1px solid blue;
     min-width: 100%;
-    height: 80vh;
+    height: 80%;
+}
+
+#goLeft{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80%;
 }
