@@ -15,11 +15,22 @@
     height: 80%;
 }
 
-#goLeft{
+%btn-styles{
     position: absolute;
     top: 50%;
-    left: 0;
     transform: translateY(-50%);
     width: 10%;
     height: 80%;
+    background: none;
+}
+
+#goLeft{
+    left:0;
+    @extend %btn-styles;
+}
+
+#goRight{
+    right:0;
+    @extend %btn-styles;
+
 }
