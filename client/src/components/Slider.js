@@ -24,6 +24,9 @@ function Slider() {
                     )
                 })
             }
+            <button>left</button>
+            <button>right</button>
+
         </div>
     )
 }
