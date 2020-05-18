@@ -24,8 +24,8 @@ function Slider() {
                     )
                 })
             }
-            <button>left</button>
-            <button>right</button>
+            <button id="goLeft">left</button>
+            <button id="goRight">right</button>
 
         </div>
     )
