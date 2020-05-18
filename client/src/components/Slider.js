@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Slider.scss";
 
 
 
@@ -17,7 +18,7 @@ function Slider() {
             {
                 sliderArr.map((item, index) => {
                     return (
-                        <div className="slide">
+                        <div key={index} className="slide">
                             {item}
                         </div>
                     )
