@@ -7,6 +7,10 @@ import "./Slider.scss";
 function Slider() {
     let sliderArr = [1, 2, 3, 4, 5];
 
+    const goLeft = () => {};
+    const goRight = () => {};
+
+
     return (
         <div className="slider">
             {sliderArr.map((item, index) => {
