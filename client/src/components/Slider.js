@@ -10,14 +10,14 @@ function Slider() {
     return (
         <div className="slider">
             {sliderArr.map((item, index) => {
-                    return (
-                        <div key={index} className="slide">
-                            {item}
-                        </div>
-                    );
-                })}
-            <button id="goLeft">left</button>
-            <button id="goRight">right</button>
+                return (
+                    <div key={index} className="slide">
+                        {item}
+                    </div>
+                );
+            })}
+            <button id="goLeft" onClick={goLeft}>left</button>
+            <button id="goRight" onClick={goRight}>right</button>
         </div>
     );
 }
