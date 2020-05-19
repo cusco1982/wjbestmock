@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Slider.scss";
+import i1 from "../../build/images/1.png"
 
 
 
