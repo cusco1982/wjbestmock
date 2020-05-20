@@ -8,11 +8,11 @@ import i1 from "../pics/ductwork1.jpg";
 
 function Slider() {
 
-    let sliderArr = [<ImgComp src={i1}/>, 2, 3, 4, 5];
+    let sliderArr = [<ImgComp src={i1} />, 2, 3, 4, 5];
     const [x, setX] = useState(0);
     const goLeft = () => {
         // console.log(x);
-        x === 0 ? setX( -100 * (sliderArr.length - 1)) : setX(x+100);
+        x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100);
     };
     const goRight = () => {
         // console.log(x);
@@ -32,8 +32,12 @@ function Slider() {
                     </div>
                 );
             })}
-            <button id="goLeft" onClick={goLeft}>left</button>
-            <button id="goRight" onClick={goRight}>right</button>
+            <button id="goLeft" onClick={goLeft}>
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="goRight" onClick={goRight}>
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
     );
 }
