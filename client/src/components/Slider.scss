@@ -9,6 +9,9 @@
     align-items: center;
     overflow: hidden;
     background: black;
+    i {
+        font-size:2vw;
+    }
 }
 
 .slide{
@@ -33,6 +36,9 @@
     &:hover{
         background:rgba(0, 0, 0, 0.336);
         cursor: pointer;
+        i {
+            color: whitesmoke;
+        }
     }
 }
 
