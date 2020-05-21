@@ -7,6 +7,11 @@ import i5 from "../pics/astronaut.jpg";
 
 import ProjectCard from "../components/ProjectCard";
 
+import Container from "../components/Container";
+import Row from "../components/Row";
+
+
+
 class Projects extends Component {
 
   state = {
@@ -15,7 +20,8 @@ class Projects extends Component {
       i2,
       i3,
       i4,
-      i5
+      i5,
+      i2
     ]
   };
 
@@ -34,20 +40,15 @@ class Projects extends Component {
     return (
       <div>
 
+        <Container>
+          <Row>
 
-        <div className="row">
+            {this.state.images.map((item, index) => {
+              return <ProjectCard key={index} src={item} />
 
+            })}
 
-
-          {this.state.images.map( images => {
-            return <ProjectCard src={images} />
-
-          })}
-
-
-
-
-          {/* {sliderArr.map((item, index) => {
+            {/* {sliderArr.map((item, index) => {
 
             return (
               <div key={index} className="">
@@ -57,14 +58,9 @@ class Projects extends Component {
 
           })} */}
 
+          </Row>
 
-
-
-
-
-
-
-        </div>
+        </Container>
 
 
 
