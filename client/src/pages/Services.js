@@ -26,25 +26,16 @@ class Services extends Component {
   };
 
 
-
   render() {
 
     return (
-      <div>
 
-        <Container>
           <Row>
             {this.state.images.map((item, index) => {
               return <ProjectCard key={index} src={item} />
 
             })}
           </Row>
-        </Container>
-
-
-
-
-      </div>
     );
   }
 }

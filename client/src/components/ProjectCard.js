@@ -11,7 +11,6 @@ function ProjectCard({src}) {
             </div>
 
         </Col>
-
     );
 }
 

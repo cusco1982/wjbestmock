@@ -9,10 +9,7 @@ import Slider from "../components/Slider";
 
 
 
-class Services extends Component {
-
-  state = {
-  };
+class Projects extends Component {
 
 
   render() {
@@ -33,4 +30,4 @@ class Services extends Component {
 
 }
 
-export default Services;
+export default Projects;
