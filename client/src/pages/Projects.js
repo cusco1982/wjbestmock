@@ -8,7 +8,7 @@ import i5 from "../pics/astronaut.jpg";
 import ProjectCard from "../components/ProjectCard";
 
 
-class Portfolio extends Component {
+class Projects extends Component {
 
   render() {
 
@@ -21,10 +21,10 @@ class Portfolio extends Component {
   ];
 
     return (
-      <div className="slider">
+      <div className="">
         {sliderArr.map((item, index) => {
           return (
-            <div key={index} className="">
+            <div key={index} className="" style={{float:'left'}}>
               {item}
             </div>
           );
@@ -38,4 +38,4 @@ class Portfolio extends Component {
 
 
 
-export default Portfolio;
+export default Projects;
