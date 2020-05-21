@@ -11,12 +11,12 @@ import i5 from "../pics/astronaut.jpg";
 function Slider() {
 
     let sliderArr = [
-    <ImgComp src={i5} />, 
-    <ImgComp src={i2} />, 
-    <ImgComp src={i3} />, 
-    <ImgComp src={i4} />, 
-    <ImgComp src={i5} />
-];
+        <ImgComp src={i5} />,
+        <ImgComp src={i2} />,
+        <ImgComp src={i3} />,
+        <ImgComp src={i4} />,
+        <ImgComp src={i5} />
+    ];
 
     const [x, setX] = useState(0);
     const goLeft = () => {
@@ -33,10 +33,7 @@ function Slider() {
         <div className="slider">
             {sliderArr.map((item, index) => {
                 return (
-                    <div
-                        key={index}
-                        className="slide"
-                        style={{ transform: `translateX(${x}%)` }}>
+                    <div key={index} className="slide" style={{ transform: `translateX(${x}%)` }}>
                         {item}
                     </div>
                 );
