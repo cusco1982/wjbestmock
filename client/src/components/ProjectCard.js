@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function ProjectCard(src) {
+function ProjectCard({src}) {
     return (
         <div className="col-sm-4">
             <div className="animated fadeInUp delay-1s" style={{cursor:"pointer"}}>
