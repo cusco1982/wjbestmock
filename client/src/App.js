@@ -62,12 +62,12 @@ class App extends Component {
           {/* <Navbar /> */}
     {/* -------------------------------------------- nav component -------------------------------------------- ******/}
 
-          <Wrapper>
+          {/* <Wrapper> */}
             <Route exact path="/" component={Main} />
             <Route exact path="/services" component={Services} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
-          </Wrapper>
+          {/* </Wrapper> */}
 
           <Footer />
 

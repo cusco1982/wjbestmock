@@ -1,15 +1,23 @@
 import React, { useState } from 'react';
 import "./Slider.scss";
 import ImgComp from "./ImgComp";
-import i1 from "../pics/ductwork1.jpg";
+// import i1 from "../pics/ductwork1.jpg";
 import i2 from "../pics/fantasy.jpg";
-
-
+import i3 from "../pics/trees.jpg";
+import i4 from "../pics/night.jpg";
+import i5 from "../pics/astronaut.jpg";
 
 
 function Slider() {
 
-    let sliderArr = [<ImgComp src={i1} />, <ImgComp src={i2} />, 3, 4, 5];
+    let sliderArr = [
+    <ImgComp src={i5} />, 
+    <ImgComp src={i2} />, 
+    <ImgComp src={i3} />, 
+    <ImgComp src={i4} />, 
+    <ImgComp src={i5} />
+];
+
     const [x, setX] = useState(0);
     const goLeft = () => {
         // console.log(x);
