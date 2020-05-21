@@ -11,7 +11,6 @@ const toolbar = props => (
 
         <div className="logo"><a href="/">WJ Best Insulation</a></div>
 
-        {/* <div className="spacer" /> */}
 
         <div className="nav-links">
             <ul>
