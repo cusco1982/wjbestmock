@@ -29,37 +29,16 @@ class Projects extends Component {
 
   render() {
 
-    // let sliderArr = [
-    //   <ProjectCard src={i5} />,
-    //   <ProjectCard src={i2} />,
-    //   <ProjectCard src={i3} />,
-    //   <ProjectCard src={i4} />,
-    //   <ProjectCard src={i5} />
-    // ];
-
     return (
       <div>
 
         <Container>
           <Row>
-
             {this.state.images.map((item, index) => {
               return <ProjectCard key={index} src={item} />
 
             })}
-
-            {/* {sliderArr.map((item, index) => {
-
-            return (
-              <div key={index} className="">
-                {item}
-              </div>
-            );
-
-          })} */}
-
           </Row>
-
         </Container>
 
 
