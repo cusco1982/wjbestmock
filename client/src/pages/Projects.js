@@ -7,31 +7,69 @@ import i5 from "../pics/astronaut.jpg";
 
 import ProjectCard from "../components/ProjectCard";
 
-
 class Projects extends Component {
+
+  state = {
+    images: [
+      i5,
+      i2,
+      i3,
+      i4,
+      i5
+    ]
+  };
+
+
 
   render() {
 
-    let sliderArr = [
-      <ProjectCard src={i5} />,
-      <ProjectCard src={i2} />,
-      <ProjectCard src={i3} />,
-      <ProjectCard src={i4} />,
-      <ProjectCard src={i5} />
-  ];
+    // let sliderArr = [
+    //   <ProjectCard src={i5} />,
+    //   <ProjectCard src={i2} />,
+    //   <ProjectCard src={i3} />,
+    //   <ProjectCard src={i4} />,
+    //   <ProjectCard src={i5} />
+    // ];
 
     return (
-      <div className="">
-        {sliderArr.map((item, index) => {
-          return (
-            <div key={index} className="" style={{float:'left'}}>
-              {item}
-            </div>
-          );
-        })}
+      <div>
+
+
+        <div className="row">
+
+
+
+          {this.state.images.map( images => {
+            return <ProjectCard src={images} />
+
+          })}
+
+
+
+
+          {/* {sliderArr.map((item, index) => {
+
+            return (
+              <div key={index} className="">
+                {item}
+              </div>
+            );
+
+          })} */}
+
+
+
+
+
+
+
+
+        </div>
+
+
+
 
       </div>
-
     );
   }
 }

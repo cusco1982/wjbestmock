@@ -11,11 +11,11 @@ import Contact from "./pages/Contact";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 
-  //  ------------------------------------ nav imports --------------------------------------->>>
+//  ------------------------------------ nav imports --------------------------------------->>>
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-  //  ------------------------------------ nav imports --------------------------------------->>>
+//  ------------------------------------ nav imports --------------------------------------->>>
 
 
 
@@ -41,33 +41,33 @@ class App extends Component {
   render() {
 
 
-  // nav stuff ------------------------------------------------------//
+    // nav stuff ------------------------------------------------------//
     let backdrop;
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />
     }
-  // nav stuff ------------------------------------------------------//
+    // nav stuff ------------------------------------------------------//
 
 
     return (
 
       <Router>
-        
+
         <div>
 
-    {/* -------------------------------------------- nav component -------------------------------------------- ******/}
+          {/* -------------------------------------------- nav component -------------------------------------------- ******/}
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           {/* <Navbar /> */}
-    {/* -------------------------------------------- nav component -------------------------------------------- ******/}
+          {/* -------------------------------------------- nav component -------------------------------------------- ******/}
 
-          {/* <Wrapper> */}
+          <Wrapper>
             <Route exact path="/" component={Main} />
             <Route exact path="/services" component={Services} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/contact" component={Contact} />
-          {/* </Wrapper> */}
+          </Wrapper>
 
           <Footer />
 
