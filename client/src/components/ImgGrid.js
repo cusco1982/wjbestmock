@@ -5,7 +5,7 @@ import i3 from "../pics/trees.jpg";
 import i4 from "../pics/night.jpg";
 import i5 from "../pics/astronaut.jpg";
 
-import ProjectCard from "./ProjectCard";
+import ServiceCard from "./ServiceCard";
 
 // import Container from "./Container";
 import Row from "./Row";
@@ -32,7 +32,7 @@ class ImgGrid extends Component {
 
           <Row>
             {this.state.images.map((item, index) => {
-              return <ProjectCard key={index} src={item} />
+              return <ServiceCard key={index} src={item} />
 
             })}
           </Row>
