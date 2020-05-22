@@ -5,7 +5,7 @@ import i3 from "../pics/trees.jpg";
 import i4 from "../pics/night.jpg";
 import i5 from "../pics/astronaut.jpg";
 
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./ServiceCard/ServiceCard";
 
 // import Container from "./Container";
 import Row from "./Row";
