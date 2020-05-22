@@ -26,19 +26,25 @@ class Services extends Component {
 
 
 
-          <h1 style={{ textAlign: "center", paddingTop: "20px" }}>Services</h1>
+          <h1 style={{ textAlign: "center", paddingTop: "20px", paddingBottom:"20px" }}>
+            Services
+          </h1>
 
           <ImgGrid />
 
-          <Row style={{paddingTop:"40px"}}>
-            <Col size="md-6" style={{justifyContent:"center",display:"flex", fontSize:"30px"}}>
+          <h1 style={{ textAlign: "center", paddingTop: "40px" }}>
+            List of services
+          </h1>
+
+          <Row style={{ paddingTop: "40px" }}>
+            <Col size="md-6" style={{ justifyContent: "center", display: "flex", fontSize: "30px" }}>
               <ul>
                 <li>Mechanical Rooms</li>
                 <li>Boiler Rooms</li>
                 <li>Plumbing</li>
               </ul>
             </Col>
-            <Col size="md-6" style={{justifyContent:"center",display:"flex", fontSize:"30px"}}>
+            <Col size="md-6" style={{ justifyContent: "center", display: "flex", fontSize: "30px" }}>
               <ul>
                 <li>Ducts</li>
                 <li>Piping</li>
@@ -47,7 +53,7 @@ class Services extends Component {
             </Col>
           </Row>
 
-          <Slider/>
+          <Slider />
 
         </Container>
 

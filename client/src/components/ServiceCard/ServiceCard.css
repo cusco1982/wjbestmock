@@ -2,6 +2,7 @@
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    cursor: pointer;
 }
   
 .middle {
@@ -35,4 +36,6 @@
          -moz-user-select: none;
           -ms-user-select: none;
               user-select: none;
+    cursor: pointer;
+
 }
