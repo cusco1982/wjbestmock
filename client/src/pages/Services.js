@@ -33,16 +33,16 @@ class Services extends Component {
           <Row style={{paddingTop:"40px"}}>
             <Col size="md-6" style={{justifyContent:"center",display:"flex", fontSize:"30px"}}>
               <ul>
-                <li>Service1</li>
-                <li>Service2</li>
-                <li>Service3</li>
+                <li>Mechanical Rooms</li>
+                <li>Boiler Rooms</li>
+                <li>Plumbing</li>
               </ul>
             </Col>
             <Col size="md-6" style={{justifyContent:"center",display:"flex", fontSize:"30px"}}>
               <ul>
-                <li>Service4</li>
-                <li>Service5</li>
-                <li>Service6</li>
+                <li>Ducts</li>
+                <li>Piping</li>
+                <li>Industrial & Commercial</li>
               </ul>
             </Col>
           </Row>
