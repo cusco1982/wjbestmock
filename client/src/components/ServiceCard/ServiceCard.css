@@ -22,7 +22,7 @@
     opacity: 0.3;
 }
   
-.container:hover .middle {
+.grid-row:hover .middle {
     opacity: 1;
 }
   
