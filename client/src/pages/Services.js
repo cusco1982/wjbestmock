@@ -26,11 +26,34 @@ class Services extends Component {
 
 
 
-          <h1 style={{ textAlign: "center", paddingTop: "20px", paddingBottom:"20px" }}>
+          <h1 style={{ textAlign: "center", paddingTop: "20px", paddingBottom: "20px" }}>
             Services
           </h1>
 
           <ImgGrid />
+
+
+                                {/* ------------ Fix this ------------ */}
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+
 
           <h1 style={{ textAlign: "center", paddingTop: "40px" }}>
             List of services
