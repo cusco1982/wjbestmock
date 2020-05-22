@@ -12,7 +12,7 @@
     /* top: 50%; */
     left: 50%;
     /* transform: translate(-50%, -50%); */
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, 15%);
 
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -27,7 +27,7 @@
 }
   
 .text {
-    color: black;
+    color:red;
     font-size: 16px;
     padding: 16px 32px;
     -webkit-touch-callout: none;
@@ -37,5 +37,8 @@
           -ms-user-select: none;
               user-select: none;
     cursor: pointer;
+}
 
+.text:hover{
+    text-decoration: none;
 }

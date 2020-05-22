@@ -12,7 +12,7 @@ function ServiceCard({ src }) {
 
                 <img href="/" style={{ height: "100%", width: "100%" }} src={src} className="image" alt="WJ Best Insulation" />
                 <div className="middle">
-                    <div className="text">Title</div>
+                    <a href="" className="text">Title</a>
                 </div>
 
             </Container>
