@@ -17,6 +17,7 @@ const toolbar = props => (
                 <li><a href="/">Main</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/projects">Projects</a></li>
+                <li><a href="/projects2">Projects2</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
         </div>

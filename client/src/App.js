@@ -7,6 +7,8 @@ import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
+import Projects2 from "./pages/Projects2";
+
 // components
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
@@ -66,6 +68,7 @@ class App extends Component {
             <Route exact path="/" component={Main} />
             <Route exact path="/services" component={Services} />
             <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects2" component={Projects2} />
             <Route exact path="/contact" component={Contact} />
           </Wrapper>
 
