@@ -1,7 +1,38 @@
-.grid-img{
-    cursor: pointer;
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -25%);
 
-.grid-img:hover{
-    opacity: 0.5;
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.image:hover {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
 }
