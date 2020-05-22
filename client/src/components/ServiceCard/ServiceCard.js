@@ -10,7 +10,7 @@ function ServiceCard({ src }) {
             <Container>
                 {/* <header>Board Insulation</header> */}
 
-                <img style={{ height: "100%", width: "100%" }} src={src} className="" alt="WJ Best Insulation" />
+                <img style={{ height: "100%", width: "100%" }} src={src} className="grid-img" alt="WJ Best Insulation" />
 
             </Container>
         </Col>

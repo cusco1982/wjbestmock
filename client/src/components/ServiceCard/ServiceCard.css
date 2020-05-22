@@ -1,11 +1,7 @@
-img{
+.grid-img{
     cursor: pointer;
 }
 
-img:hover{
+.grid-img:hover{
     opacity: 0.5;
-}
-
-.container :hover .text{
-    opacity: 1;
 }
