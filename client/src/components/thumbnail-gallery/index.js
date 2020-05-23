@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 
+import ActiveWindow from './active-thumbnail-window';
+
+
+
 export default class ThumbnailGallery extends Component {
     render() {
         return (
             <div style={thumbnailStyles}>
 
                 <div style={{ flex: 1 }}>
-                    left
+                    <ActiveWindow/>
                 </div>
 
                 <div style={{ flex: 1 }}>
