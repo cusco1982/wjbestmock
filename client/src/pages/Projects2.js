@@ -5,6 +5,9 @@ import Wrapper from "../components/Wrapper";
 // import Col from "../components/Col";
 import Row from "../components/Row";
 
+import ThumbnailGallery from "../components/thumbnail-gallery";
+
+
 // import Slider from "../components/Slider";
 // import ImgGrid from "../components/ImgGrid";
 
@@ -17,7 +20,7 @@ class Projects2 extends Component {
         <Wrapper>
 
             <Row>
-
+<ThumbnailGallery/>
                      
 
             </Row>
