@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 // import API from "../utils/API";
 import Wrapper from "../components/Wrapper";
-import Container from "../components/Container";
+// import Container from "../components/Container";
 // import Col from "../components/Col";
 import Row from "../components/Row";
 
-import Slider from "../components/Slider";
-import ImgGrid from "../components/ImgGrid";
+// import Slider from "../components/Slider";
+// import ImgGrid from "../components/ImgGrid";
 
 
 class Projects2 extends Component {
@@ -18,7 +18,7 @@ class Projects2 extends Component {
 
             <Row>
 
-                     Hello0o0o00
+                     
 
             </Row>
 
