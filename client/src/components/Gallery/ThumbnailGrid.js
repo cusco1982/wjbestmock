@@ -1,30 +1,32 @@
 import React from 'react';
-import ActiveWindow from './ActiveWindow';
-import ThumbnailGrid from './ThumbnailGrid';
+import Thumbnail from './Thumbnail';
 
 
 
-class ThumbnailGallery extends Component {
-    render() {
+const ThumbnailGrid = () => {
         return (
-            <div style={{ flex: 1 }} >
-                <ActiveWindow />
-                <ThumbnailGrid />
-            </div>
+            <div style={styles} >
 
-            <div style={{ flex: 1 }} >
-                Right
+                <Thumbnail />
+                <Thumbnail />
+                <Thumbnail />
+                <Thumbnail />
+
+                <Thumbnail />
+                <Thumbnail />
+                <Thumbnail />
+                <Thumbnail />
+
             </div>
-        )
-    }
+    )
 }
 
 const styles = {
     height: "35%",
     width: "100%",
     background: "yellow",
-    display: "flex"
-    flexWrap: "wrap",
+    display: "flex",
+    flexWrap: "wrap"
 }
 
 export default ThumbnailGrid;

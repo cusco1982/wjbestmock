@@ -2,16 +2,15 @@ import React from 'react';
 
 
 const Thumbnail = () => {
-        return (
+    return (
 
-            <div style={styles} >
-                Thumbnail
-            </div>
-        )
-    }
+        <div style={thumbnailStyles} >
+            Thumbnail
+        </div>
+    )
 }
 
-const styles = {
+const thumbnailStyles = {
     height: "35%",
     width: "25%",
     background: "red"
