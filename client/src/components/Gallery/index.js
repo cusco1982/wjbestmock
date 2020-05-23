@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import ActiveWindow from './active-thumbnail-window';
+import ActiveWindow from './ActiveWindow';
 
 
 
-export default class ThumbnailGallery extends Component {
+export default class Gallery extends Component {
     render() {
         return (
             <div style={thumbnailStyles}>

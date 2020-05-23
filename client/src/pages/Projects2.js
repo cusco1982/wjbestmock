@@ -5,7 +5,7 @@ import Wrapper from "../components/Wrapper";
 // import Col from "../components/Col";
 import Row from "../components/Row";
 
-import ThumbnailGallery from "../components/thumbnail-gallery";
+import Gallery from "../components/Gallery";
 
 
 // import Slider from "../components/Slider";
@@ -14,21 +14,21 @@ import ThumbnailGallery from "../components/thumbnail-gallery";
 
 class Projects2 extends Component {
 
-  render() {
-    return (
-      <div>
-        <Wrapper>
+    render() {
+        return (
+            <div>
+                <Wrapper>
 
-            <Row>
-<ThumbnailGallery/>
-                     
+                    <Row>
 
-            </Row>
+                        <Gallery />
 
-        </Wrapper>
-      </div>
-    )
-  }
+                    </Row>
+
+                </Wrapper>
+            </div>
+        )
+    }
 }
 
 export default Projects2;
