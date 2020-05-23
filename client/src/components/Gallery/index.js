@@ -7,23 +7,26 @@ import ThumbnailGrid from './ThumbnailGrid';
 export default class Gallery extends Component {
     render() {
         return (
-            <div style={styles} >
+            <div style={GalleryStyles}>
 
                 <div style={{ flex: 1 }} >
                     <ActiveWindow />
                     <ThumbnailGrid />
                 </div>
 
+                
+
                 <div style={{ flex: 1 }} >
                     Right
                 </div>
+
             </div>
 
         )
     }
 }
 
-const styles = {
+const GalleryStyles = {
     background: "#ddd",
     height: "500px",
     width: "1024px",

@@ -4,7 +4,7 @@ import ThumbnailGrid from './ThumbnailGrid';
 
 
 
-export default class ThumbnailGallery extends Component {
+class ThumbnailGallery extends Component {
     render() {
         return (
             <div style={{ flex: 1 }} >
@@ -20,9 +20,11 @@ export default class ThumbnailGallery extends Component {
 }
 
 const styles = {
-    background: "#ddd",
-    height: "500px",
-    width: "1024px",
-    margin: "40px auto",
+    height: "35%",
+    width: "100%",
+    background: "yellow",
     display: "flex"
+    flexWrap: "wrap",
 }
+
+export default ThumbnailGrid;
