@@ -1,31 +1,32 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import ActiveWindow from './ActiveWindow';
+import ThumbnailGrid from './ThumbnailGrid';
 
 
 
 export default class Gallery extends Component {
     render() {
         return (
-            <div style={thumbnailStyles}>
+            <div style={styles} >
 
-                <div style={{ flex: 1 }}>
-                    <ActiveWindow/>
+                <div style={{ flex: 1 }} >
+                    <ActiveWindow />
+                    <ThumbnailGrid />
                 </div>
 
-                <div style={{ flex: 1 }}>
-                    right
+                <div style={{ flex: 1 }} >
+                    Right
                 </div>
-
             </div>
+
         )
     }
 }
 
-const thumbnailStyles = {
-    background: '#ddd',
-    height: '500px',
-    width: '1024px',
-    margin: '40px auto',
-    display: 'flex'
+const styles = {
+    background: "#ddd",
+    height: "500px",
+    width: "1024px",
+    margin: "40px auto",
+    display: "flex"
 }
