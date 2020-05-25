@@ -1,11 +1,29 @@
 import React, {Component} from 'react';
 import ActiveWindow from './ActiveWindow';
 import ThumbnailGrid from './ThumbnailGrid';
+import axios from 'axios';
 
 
 
 export default class Gallery extends Component {
+
+    state={
+        thumbnails: []
+    }
+
+
+    // ------------insert link to thumbnails------------
+    // componentDidMount(){
+    //     axios.get(' urltothumbnail ')
+    //     .then(res=>{
+    //         console.log(res);
+    //     })
+
+    }
+
     render() {
+        console.log(this.state.thumbnails);
+        
         return (
             <div style={galleryStyles}>
 
@@ -16,7 +34,7 @@ export default class Gallery extends Component {
 
                 
 
-                <div style={{ flex: 1 }} >
+                <div style={{ flex: 1, padding:'40px' }} >
                     Right
                 </div>
 
