@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ActiveWindow from './ActiveWindow';
 import ThumbnailGrid from './ThumbnailGrid';
-import axios from 'axios';
+// import axios from 'axios';
 
 
 
@@ -18,11 +18,10 @@ export default class Gallery extends Component {
     //     .then(res=>{
     //         console.log(res);
     //     })
-
-    }
+    // }
 
     render() {
-        console.log(this.state.thumbnails);
+        console.log(this.state.thumbnails)
         
         return (
             <div style={galleryStyles}>
