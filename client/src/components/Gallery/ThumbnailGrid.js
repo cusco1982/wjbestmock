@@ -3,21 +3,20 @@ import Thumbnail from './Thumbnail';
 
 
 
-const ThumbnailGrid = () => {
-        return (
-            <div style={styles} >
-
-                <Thumbnail />
-                <Thumbnail />
-                <Thumbnail />
-                <Thumbnail />
-
-                <Thumbnail />
-                <Thumbnail />
-                <Thumbnail />
-                <Thumbnail />
-
-            </div>
+const ThumbnailGrid = ({ thumbnails }) => {
+    return (
+        <div style={styles}>
+            {
+                thumbnails.map((thumbnail) => {
+                    return (
+                        <Thumbnail
+                            key={thumbnail.imgUrl}
+                            imgUrl={thumbnail.imgUrl}
+                        />
+                    )
+                })
+            }
+        </div>
     )
 }
 

@@ -8,6 +8,8 @@ import ThumbnailGrid from './ThumbnailGrid';
 export default class Gallery extends Component {
 
     state = {
+        activeIndex: 0,
+
         thumbnails: [
             {
                 imgUrl: "https://images-na.ssl-images-amazon.com/images/I/51vasBk1seL._AC_SX466_.jpg",
@@ -64,10 +66,10 @@ export default class Gallery extends Component {
 
 
     renderThumbnails = () => {
-        const { thumbnails } = this.state
+        const { thumbnails, activeIndex } = this.state
         if (thumbnails.length) {
             return (
-                <ActiveWindow activeThumbnail={thumbnails[0]} />
+                <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />
             )
         }
         return null
@@ -75,16 +77,15 @@ export default class Gallery extends Component {
 
 
     render() {
-        console.log(this.state.thumbnails)
-
-        const thumbnails = this.state;
+        const {thumbnails} = this.state;
+        // console.log(this.state.thumbnails)
 
         return (
             <div style={galleryStyles}>
 
                 <div style={{ flex: 1 }}>
                     {this.renderThumbnails()}
-                    <ThumbnailGrid />
+                    <ThumbnailGrid thumbnails={thumbnails} />
                 </div>
 
 

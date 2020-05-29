@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const Thumbnail = () => {
+const Thumbnail = ({imgUrl}) => {
     return (
 
         <div style={styles} >
-
+            <img src={imgUrl}/>
         </div>
     )
 }
