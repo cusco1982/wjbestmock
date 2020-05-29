@@ -3,7 +3,14 @@ import React from 'react';
 const ActiveWindow = ({activeThumbnail}) => {
     return (
         <div style={styles}>
-            <img src={activeThumbnail.imgUrl} alt="WJBest" className=""/>
+            <img src={activeThumbnail.imgUrl}
+            style={{
+                width:"100%",
+                height:"100%"
+            }}
+            // alt="WJBest"
+            // className=""
+            />
         </div>
     )
 }
