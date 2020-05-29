@@ -65,7 +65,7 @@ export default class Gallery extends Component {
     render() {
         console.log(this.state.thumbnails)
 
-        const thumbnails = this.state.thumbnails;
+        const thumbnails = this.state;
 
         return (
             <div style={galleryStyles}>
