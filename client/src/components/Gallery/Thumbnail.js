@@ -3,9 +3,15 @@ import React from 'react';
 
 const Thumbnail = ({imgUrl}) => {
     return (
-
         <div style={styles} >
-            <img src={imgUrl}/>
+
+            <img src={imgUrl}
+            style={{
+                height:'100%',
+                width:'100%'
+            }}
+            />
+
         </div>
     )
 }
@@ -13,7 +19,7 @@ const Thumbnail = ({imgUrl}) => {
 const styles = {
     height: "35%",
     width: "25%",
-    background: 'red'
+    position: 'relative'
 }
 
 export default Thumbnail;

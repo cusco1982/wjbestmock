@@ -47,7 +47,7 @@ export default class Gallery extends Component {
                 bodyText: "Lorem ipsum dolor sit amet"
             },
             {
-                imgUrl: "https://lh3.googleusercontent.com/proxy/3sTbPAynnvZ00lU1qXoqpUxd13Jhy8Y5RO9m4uxr7L-r21pHzO5qoRhAZ6xmYBPldr-mKgE_xbmbdbaxbHV5Kx0C29aD1kPecv2vz5qIh53PNu1r4XOS3E4rnxPfdfxVcA",
+                imgUrl: "https://i.ebayimg.com/images/g/jREAAOSwkotaCp~o/s-l300.jpg",
                 title: "cool last",
                 bodyText: "Lorem ipsum dolor sit amet"
             }
