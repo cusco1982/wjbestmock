@@ -71,7 +71,7 @@ export default class Gallery extends Component {
             <div style={galleryStyles}>
 
                 <div style={{ flex: 1 }} >
-                    <ActiveWindow />
+                    <ActiveWindow activeThumbnail={thumbnails[0]} />
                     <ThumbnailGrid />
                 </div>
 
