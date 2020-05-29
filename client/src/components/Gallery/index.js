@@ -62,6 +62,18 @@ export default class Gallery extends Component {
     //     })
     // }
 
+
+    renderThumbnails = () => {
+        const { thumbnails } = this.state
+        if (thumbnails.length) {
+            return (
+                <ActiveWindow activeThumbnail={thumbnails[0]} />
+            )
+        }
+        return null
+    }
+
+
     render() {
         console.log(this.state.thumbnails)
 
@@ -70,8 +82,8 @@ export default class Gallery extends Component {
         return (
             <div style={galleryStyles}>
 
-                <div style={{ flex: 1 }} >
-                    <ActiveWindow activeThumbnail={thumbnails[0]} />
+                <div style={{ flex: 1 }}>
+                    {this.renderThumbnails()}
                     <ThumbnailGrid />
                 </div>
 
