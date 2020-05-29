@@ -3,7 +3,7 @@ import Thumbnail from './Thumbnail';
 
 
 
-const ThumbnailGrid = ({ thumbnails }) => {
+const ThumbnailGrid = ({ thumbnails, handleClick }) => {
     return (
         <div style={styles}>
             {
@@ -12,6 +12,7 @@ const ThumbnailGrid = ({ thumbnails }) => {
                         <Thumbnail
                             key={thumbnail.imgUrl}
                             imgUrl={thumbnail.imgUrl}
+                            handleClick={handleClick}
                         />
                     )
                 })

@@ -75,6 +75,10 @@ export default class Gallery extends Component {
         return null
     }
 
+    handleClick = () => {
+        console.log("Hello");
+    }
+
 
     render() {
         const {thumbnails} = this.state;
@@ -85,7 +89,9 @@ export default class Gallery extends Component {
 
                 <div style={{ flex: 1 }}>
                     {this.renderThumbnails()}
-                    <ThumbnailGrid thumbnails={thumbnails} />
+                    <ThumbnailGrid
+                    thumbnails={thumbnails}
+                    handleClick={this.handleClick} />
                 </div>
 
 

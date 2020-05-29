@@ -1,11 +1,12 @@
 import React from 'react';
 
 
-const Thumbnail = ({imgUrl}) => {
+const Thumbnail = ({imgUrl, handleClick}) => {
     return (
         <div style={styles} >
 
-            <img src={imgUrl} style={{ height:'100%', width:'100%' }} />
+            <img src={imgUrl} style={{ height:'100%', width:'100%' }}
+            onClick={handleClick} />
 
         </div>
     )
