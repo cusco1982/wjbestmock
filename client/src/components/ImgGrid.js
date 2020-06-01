@@ -32,7 +32,7 @@ class ImgGrid extends Component {
 
           <Row className="grid-row">
             {this.state.images.map((item, index) => {
-              return <ServiceCard key={index} src={item} />
+              return <ServiceCard src={item} key={index}  />
 
             })}
           </Row>
