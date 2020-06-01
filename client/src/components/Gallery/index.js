@@ -75,8 +75,10 @@ export default class Gallery extends Component {
         return null
     }
 
-    handleClick = () => {
-        console.log("Hello");
+    handleClick = (e) => {
+        // console.log("Hello");
+        const newActiveIndex = e.target.getAttribute('data-index')
+        console.log(newActiveIndex)
     }
 
 
