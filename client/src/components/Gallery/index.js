@@ -12,7 +12,7 @@ export default class Gallery extends Component {
 
         thumbnails: [
             {
-                imgUrl: "https://images-na.ssl-images-amazon.com/images/I/51vasBk1seL._AC_SX466_.jpg",
+                imgUrl: "https://i.ebayimg.com/images/g/jREAAOSwkotaCp~o/s-l300.jpg",
                 title: "primero",
                 bodyText: "Lorem ipsum dolor sit amet"
             },
@@ -22,7 +22,7 @@ export default class Gallery extends Component {
                 bodyText: "Lorem ipsum dolor sit amet"
             },
             {
-                imgUrl: "https://comps.canstockphoto.com/atom-vector-clip-art_csp7464361.jpg",
+                imgUrl: "https://i.ebayimg.com/images/g/jREAAOSwkotaCp~o/s-l300.jpg",
                 title: "vector",
                 bodyText: "Lorem ipsum dolor sit amet"
             },
