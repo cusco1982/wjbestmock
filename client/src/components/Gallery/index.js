@@ -69,22 +69,39 @@ export default class Gallery extends Component {
         const { thumbnails, activeIndex } = this.state
         if (thumbnails.length) {
             return (
-                <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />
+                <>
+                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />
+                    <ThumbnailGrid
+                        thumbnails={thumbnails}
+                        handleClick={this.handleClick} />
+                </>
             )
         }
         return null
+    }
+
+    renderTextContent = () => {
+        const { thumbnails, activeIndex } = this.state
+
+        if (thumbnails.length) {
+            return (
+                <>
+                <h1> { thumbnails[activeIndex].title } </h1>
+                </>
+            )
+        }
     }
 
     handleClick = (e) => {
         // console.log("Hello");
         const newActiveIndex = e.target.getAttribute('data-index')
         // console.log(newActiveIndex)
-        this.setState({activeIndex : newActiveIndex})
+        this.setState({ activeIndex: newActiveIndex })
     }
 
 
     render() {
-        const {thumbnails} = this.state;
+        const { thumbnails } = this.state;
         // console.log(this.state.thumbnails)
 
         return (
@@ -92,15 +109,13 @@ export default class Gallery extends Component {
 
                 <div style={{ flex: 1 }}>
                     {this.renderThumbnails()}
-                    <ThumbnailGrid
-                    thumbnails={thumbnails}
-                    handleClick={this.handleClick} />
+
                 </div>
 
 
 
                 <div style={{ flex: 1, padding: '40px' }} >
-                    Right
+                    {this.renderTextContent()}
                 </div>
 
             </div>

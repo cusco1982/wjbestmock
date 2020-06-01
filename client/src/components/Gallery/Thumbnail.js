@@ -7,7 +7,7 @@ const Thumbnail = ({imgUrl, handleClick, index}) => {
 
             <img 
             src={imgUrl} 
-            style={{ height:'100%', width:'100%' }}
+            style={{ height:'100%', width:'100%', cursor:'pointer' }}
             onClick={handleClick}
             data-index={index}
             />
