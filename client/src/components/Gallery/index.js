@@ -19,7 +19,7 @@ export default class Gallery extends Component {
             {
                 imgUrl: "https://cdn.mos.cms.futurecdn.net/287Tj54rRxgaCqBaTDstk3.jpg",
                 title: "idk",
-                bodyText: "Lorem ipsum dolor sit amet"
+                bodyText: "Lorem ipsum 2nd descript sit amet"
             },
             {
                 imgUrl: "https://i.ebayimg.com/images/g/jREAAOSwkotaCp~o/s-l300.jpg",
@@ -34,7 +34,7 @@ export default class Gallery extends Component {
             {
                 imgUrl: "https://images-na.ssl-images-amazon.com/images/I/61g2F9k3HTL._AC_SL1024_.jpg",
                 title: "amazinoon",
-                bodyText: "Lorem ipsum dolor sit amet"
+                bodyText: "Lorem middle somewehre sit amet"
             },
             {
                 imgUrl: "https://ae01.alicdn.com/kf/HTB163PHJpXXXXcQaXXXq6xXFXXXj/HOT-30-40-THE-HANK-IS-BURNING-IN-FIRE-FIRE-ART-THE-PRINT-OIL-PAINTING-WALL.jpg",
@@ -44,12 +44,12 @@ export default class Gallery extends Component {
             {
                 imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLLH1ShDDLPOnuX76DYEFx-GYJzDC8HxEIZrmqaQvBjV_fC2fe&usqp=CAU",
                 title: "2nd to last",
-                bodyText: "Lorem ipsum dolor sit amet"
+                bodyText: "Lorem 2ndlast dolor sit amet"
             },
             {
                 imgUrl: "https://i.ebayimg.com/images/g/jREAAOSwkotaCp~o/s-l300.jpg",
                 title: "cool last",
-                bodyText: "Lorem ipsum dolor sit amet"
+                bodyText: "Lorem lassttttt dolor sit amet"
             }
         ]
     }
@@ -87,6 +87,7 @@ export default class Gallery extends Component {
             return (
                 <>
                 <h1> { thumbnails[activeIndex].title } </h1>
+                <p> { thumbnails[activeIndex].bodyText } </p>
                 </>
             )
         }
