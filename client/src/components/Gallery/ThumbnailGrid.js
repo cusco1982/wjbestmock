@@ -10,7 +10,7 @@ const ThumbnailGrid = ({ thumbnails, handleClick }) => {
                 thumbnails.map((thumbnail, i) => {
                     return (
                         <Thumbnail
-                            key={thumbnail.imgUrl}
+                            key={i}
                             imgUrl={thumbnail.imgUrl}
                             handleClick={handleClick}
                             index={i}
