@@ -51,8 +51,7 @@ class ImgGrid extends Component {
       <Row className="grid-row">
         {this.state.images.map((item, index) => {
           return <ServiceCard
-            src={item.images}
-            href={item.href}
+            src={item}
             key={index} />
 
         })}
