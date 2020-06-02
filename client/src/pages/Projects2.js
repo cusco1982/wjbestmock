@@ -20,7 +20,7 @@ class Projects2 extends Component {
 
                     <Row>
 
-                        <Gallery />
+                        <Gallery />              <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 
                     </Row>
 

@@ -70,7 +70,11 @@ export default class Gallery extends Component {
         if (thumbnails.length) {
             return (
                 <>
-                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />           <br/> <br/> <br/> <br/> <br/>
+                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />           <br /> <br /> <br /> <br /> <br />
+                    <ThumbnailGrid
+                        thumbnails={thumbnails}
+                        handleClick={this.handleClick} />                <br /> <br />
+
                     <ThumbnailGrid
                         thumbnails={thumbnails}
                         handleClick={this.handleClick} />
@@ -86,8 +90,8 @@ export default class Gallery extends Component {
         if (thumbnails.length) {
             return (
                 <>
-                <h1> { thumbnails[activeIndex].title } </h1>
-                <p> { thumbnails[activeIndex].bodyText } </p>
+                    <h1> {thumbnails[activeIndex].title} </h1>
+                    <p> {thumbnails[activeIndex].bodyText} </p>
                 </>
             )
         }
