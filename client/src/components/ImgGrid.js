@@ -18,7 +18,7 @@ class ImgGrid extends Component {
     images: [
       {
         images: i5,
-        href: "/"
+        href: "projects2"
       },
       {
         images: i2,
@@ -26,19 +26,19 @@ class ImgGrid extends Component {
       },
       {
         images: i3,
-        href: "www.cnn.com"
+        href: "projects2"
       },
       {
         images: i4,
-        href: "wwww.google.com"
+        href: "projects2"
       },
       {
         images: i5,
-        href: "www.facebook.com"
+        href: "projects2"
       },
       {
         images: i2,
-        href: "www.instagram.com"
+        href: "projects2"
       }
     ]
   };
