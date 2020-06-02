@@ -70,7 +70,7 @@ export default class Gallery extends Component {
         if (thumbnails.length) {
             return (
                 <>
-                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />
+                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />           <br/> <br/> <br/> <br/> <br/>
                     <ThumbnailGrid
                         thumbnails={thumbnails}
                         handleClick={this.handleClick} />
