@@ -16,12 +16,30 @@ class ImgGrid extends Component {
 
   state = {
     images: [
-      i5,
-      i2,
-      i3,
-      i4,
-      i5,
-      i2
+      {
+        images: i5,
+        href: "/"
+      },
+      {
+        images: i2,
+        href: "projects2"
+      },
+      {
+        images: i3,
+        href: "www.cnn.com"
+      },
+      {
+        images: i4,
+        href: "wwww.google.com"
+      },
+      {
+        images: i5,
+        href: "www.facebook.com"
+      },
+      {
+        images: i2,
+        href: "www.instagram.com"
+      }
     ]
   };
 
@@ -30,12 +48,15 @@ class ImgGrid extends Component {
 
     return (
 
-          <Row className="grid-row">
-            {this.state.images.map((item, index) => {
-              return <ServiceCard src={item} key={index}  />
+      <Row className="grid-row">
+        {this.state.images.map((item, index) => {
+          return <ServiceCard
+            src={item.images}
+            href={item.href}
+            key={index} />
 
-            })}
-          </Row>
+        })}
+      </Row>
     );
   }
 }

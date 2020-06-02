@@ -4,17 +4,17 @@ import "./ServiceCard.css";
 import Container from "../Container";
 
 
-function ServiceCard({ src }) {
+function ServiceCard({ src, href }) {
     return (
         <Col size="md-4" style={{ float: "left", paddingBottom: "20px", paddingTop: "20px" }}>
             <Container>
                 {/* <header>Board Insulation</header> */}
-                <a href={src}>
+                <a href={href}>
                     <img style={{ height: "100%", width: "100%" }} src={src} className="image" alt="WJ Best Insulation" />
                 </a>
                 
                 <div className="middle">
-                    <a href="/projects" className="text">Title</a>
+                    <a href={href} className="text">Title</a>
                 </div>
 
             </Container>
