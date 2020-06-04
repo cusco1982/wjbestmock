@@ -19,7 +19,8 @@ const Thumbnail = ({imgUrl, handleClick, index}) => {
 const styles = {
     height: "50%",
     width: "25%",
-    position: 'relative'
+    position: 'relative',
+    // transform: 'translate(-100%)'
 }
 
 export default Thumbnail;
