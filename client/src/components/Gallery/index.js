@@ -124,9 +124,9 @@ export default class Gallery extends Component {
 
 
 
-                <div style={{ flex: 1, padding: '40px' }} >
+                {/* <div style={{ flex: 1, padding: '40px' }} >
                     {this.renderTextContent()}
-                </div>
+                </div> */}
 
             </div>
 
