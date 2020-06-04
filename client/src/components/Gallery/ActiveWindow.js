@@ -16,7 +16,7 @@ const ActiveWindow = ({activeThumbnail}) => {
 }
 
 const styles = {
-    height: "65%",
+    height: "100%",
     width: "100%",
     background: "#333"
 }
