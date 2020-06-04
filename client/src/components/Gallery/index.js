@@ -77,7 +77,12 @@ export default class Gallery extends Component {
 
                     <ThumbnailGrid
                         thumbnails={thumbnails}
+                        handleClick={this.handleClick} />               <br /> <br />
+
+                    <ThumbnailGrid
+                        thumbnails={thumbnails}
                         handleClick={this.handleClick} />
+
                 </>
             )
         }
