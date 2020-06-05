@@ -7,8 +7,6 @@ import Col from "../Col";
 import Row from "../Row";
 
 
-
-
 export default class Gallery extends Component {
 
     state = {
