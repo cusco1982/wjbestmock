@@ -25,7 +25,6 @@ const ThumbnailGrid = ({ thumbnails, handleClick }) => {
 const styles = {
     height: "35%",
     width: "100%",
-    background: "yellow",
     display: "flex",
     flexWrap: "wrap"
 }

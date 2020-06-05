@@ -20,7 +20,7 @@ const styles = {
     height: "50%",
     width: "25%",
     position: 'relative',
-    // transform: 'translate(-100%)'
+    // transform: 'translate(-100%)' -----   fix   -----
 }
 
 export default Thumbnail;
