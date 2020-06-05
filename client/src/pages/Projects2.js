@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import API from "../utils/API";
 import Wrapper from "../components/Wrapper";
 // import Container from "../components/Container";
-// import Col from "../components/Col";
+import Col from "../components/Col";
 import Row from "../components/Row";
 
 import Gallery from "../components/Gallery";
@@ -17,10 +17,37 @@ class Projects2 extends Component {
         return (
             <div>
                 <Wrapper>
-
                     <Row>
+                        <Col size="2">
 
-                        <Gallery />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                            <ul style={{ paddingLeft:"50%", listStyle:"none" }}>
+                                <li>
+                                    <a href="/projects2">First gallery</a>
+                                </li>
+                                <li>
+                                    <a href="/projects2">2nd gallery</a>
+                                </li>
+                                <li>
+                                    <a href="/projects2">3 gallery</a>
+                                </li>
+                                <li>
+                                    <a href="/projects2">4th gallery</a>
+                                </li>
+                                <li>
+                                    <a href="/projects">last gallery</a>
+                                </li>
+
+                            </ul>
+
+                        </Col>
+
+                        <Col size="10">
+
+                            <Row>
+                                <Gallery />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                            </Row>
+
+                        </Col>
 
                     </Row>
 
