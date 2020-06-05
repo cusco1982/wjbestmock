@@ -5,7 +5,7 @@ import Wrapper from "../components/Wrapper";
 import Col from "../components/Col";
 import Row from "../components/Row";
 
-import Gallery from "../components/Gallery";
+import Gallery2 from "../components/Gallery2";
 
 // import Slider from "../components/Slider";
 // import ImgGrid from "../components/ImgGrid";
@@ -44,7 +44,7 @@ class Projects2 extends Component {
                         <Col size="10">
 
                             <Row>
-                                <Gallery />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                                <Gallery2 />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
                             </Row>
 
                         </Col>
