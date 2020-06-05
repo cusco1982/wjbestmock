@@ -20,7 +20,7 @@ class Projects2 extends Component {
                     <Row>
                         <Col size="2">
 
-                            <ul style={{ paddingLeft:"50%", listStyle:"none" }}>
+                            <ul style={{ paddingLeft:"50%", listStyle:"none", fontSize:"20px" }}>
                                 <li>
                                     <a href="/projects2">First gallery</a>
                                 </li>
