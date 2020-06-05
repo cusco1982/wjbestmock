@@ -87,18 +87,18 @@ export default class Gallery extends Component {
         return null
     }
 
-    renderTextContent = () => {
-        const { thumbnails, activeIndex } = this.state
+    // renderTextContent = () => {
+    //     const { thumbnails, activeIndex } = this.state
 
-        if (thumbnails.length) {
-            return (
-                <>
-                    <h1> {thumbnails[activeIndex].title} </h1>
-                    <p> {thumbnails[activeIndex].bodyText} </p>
-                </>
-            )
-        }
-    }
+    //     if (thumbnails.length) {
+    //         return (
+    //             <>
+    //                 <h1> {thumbnails[activeIndex].title} </h1>
+    //                 <p> {thumbnails[activeIndex].bodyText} </p>
+    //             </>
+    //         )
+    //     }
+    // }
 
     handleClick = (e) => {
         // console.log("Hello");
