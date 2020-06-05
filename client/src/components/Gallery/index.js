@@ -3,6 +3,10 @@ import ActiveWindow from './ActiveWindow';
 import ThumbnailGrid from './ThumbnailGrid';
 // import axios from 'axios';
 
+import Col from "../Col";
+import Row from "../Row";
+
+
 
 
 export default class Gallery extends Component {
@@ -111,20 +115,48 @@ export default class Gallery extends Component {
         // console.log(this.state.thumbnails)
 
         return (
-            <div style={galleryStyles}>
 
-                <div style={{ flex: 1 }}>
-                    {this.renderThumbnails()}
+            <Row>
 
-                </div>
+                <Col size="2">
+                    <ul style={{ paddingLeft: "50%", paddingTop: "40px", listStyle: "none", fontSize: "20px" }}>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <a href="/projects2">Duct Work</a>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <a href="/projects3">Pipe Insulation</a>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <a href="/projects2">Tanks</a>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <a href="/projects2">Plumbing</a>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <a href="/projects">last gallery</a>
+                        </li>
+                    </ul>
+                </Col>
 
 
+                <Col size="10">
+                    <div style={galleryStyles}>
 
-                {/* <div style={{ flex: 1, padding: '40px' }} >
+                        <div style={{ flex: 1 }}>
+                            {this.renderThumbnails()}
+                        </div>
+
+                        {/* <div style={{ flex: 1, padding: '40px' }} >
                     {this.renderTextContent()}
                 </div> */}
 
-            </div>
+                    </div>
+
+                </Col>
+
+
+            </Row>
+
 
         )
     }

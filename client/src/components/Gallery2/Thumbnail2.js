@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Thumbnail = ({imgUrl, handleClick, index}) => {
+const Thumbnail2 = ({imgUrl, handleClick, index}) => {
     return (
         <div style={styles} >
 
@@ -23,4 +23,4 @@ const styles = {
     // transform: 'translate(-100%)' -----   fix   -----
 }
 
-export default Thumbnail;
+export default Thumbnail2;

@@ -17,39 +17,10 @@ class Projects2 extends Component {
         return (
             <div>
                 <Wrapper>
-                    <Row>
-                        <Col size="2">
 
-                            <ul style={{ paddingLeft:"50%",paddingTop:"40px", listStyle:"none", fontSize:"20px" }}>
-                                <li style={{paddingBottom:"20px"}}>
-                                    <a href="/projects2">Duct Work</a>
-                                </li>
-                                <li style={{paddingBottom:"20px"}}>
-                                    <a href="/projects2">Pipe Insulation</a>
-                                </li>
-                                <li style={{paddingBottom:"20px"}}>
-                                    <a href="/projects2">Tanks</a>
-                                </li>
-                                <li style={{paddingBottom:"20px"}}>
-                                    <a href="/projects2">Plumbing</a>
-                                </li>
-                                <li style={{paddingBottom:"20px"}}>
-                                    <a href="/projects">last gallery</a>
-                                </li>
 
-                            </ul>
+                    <Gallery />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 
-                        </Col>
-
-                        <Col size="10">
-
-                            <Row>
-                                <Gallery />            <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-                            </Row>
-
-                        </Col>
-
-                    </Row>
 
                 </Wrapper>
             </div>

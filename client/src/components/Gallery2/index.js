@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ActiveWindow from './ActiveWindow';
-import ThumbnailGrid from './ThumbnailGrid';
+import ActiveWindow2 from './ActiveWindow2';
+import ThumbnailGrid2 from './ThumbnailGrid2';
 // import axios from 'axios';
 
 
@@ -70,12 +70,12 @@ export default class Gallery extends Component {
         if (thumbnails.length) {
             return (
                 <>
-                    <ActiveWindow activeThumbnail={thumbnails[activeIndex]} />           <br /> <br /> <br /> <br /> <br />
-                    <ThumbnailGrid
+                    <ActiveWindow2 activeThumbnail={thumbnails[activeIndex]} />           <br /> <br /> <br /> <br /> <br />
+                    <ThumbnailGrid2
                         thumbnails={thumbnails}
                         handleClick={this.handleClick} />                <br /> <br />
 
-                    <ThumbnailGrid
+                    <ThumbnailGrid2
                         thumbnails={thumbnails}
                         handleClick={this.handleClick} />               <br /> <br />
 

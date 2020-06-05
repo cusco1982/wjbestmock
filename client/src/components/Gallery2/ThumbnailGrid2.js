@@ -1,15 +1,15 @@
 import React from 'react';
-import Thumbnail from './Thumbnail';
+import Thumbnail2 from './Thumbnail2';
 
 
 
-const ThumbnailGrid = ({ thumbnails, handleClick }) => {
+const ThumbnailGrid2 = ({ thumbnails, handleClick }) => {
     return (
         <div style={styles}>
             {
                 thumbnails.map((thumbnail, i) => {
                     return (
-                        <Thumbnail
+                        <Thumbnail2
                             key={i}
                             imgUrl={thumbnail.imgUrl}
                             handleClick={handleClick}
@@ -29,4 +29,4 @@ const styles = {
     flexWrap: "wrap"
 }
 
-export default ThumbnailGrid;
+export default ThumbnailGrid2;

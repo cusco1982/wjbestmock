@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ActiveWindow = ({activeThumbnail}) => {
+const ActiveWindow2 = ({activeThumbnail}) => {
     return (
         <div style={styles}>
             <img src={activeThumbnail.imgUrl}
@@ -21,4 +21,4 @@ const styles = {
     background: "#333"
 }
 
-export default ActiveWindow;
+export default ActiveWindow2;
