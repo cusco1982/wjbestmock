@@ -113,14 +113,6 @@ export default class Gallery extends Component {
         // console.log(this.state.thumbnails)
 
 
-
-        //<---------------   fix  ------------------>
-        var i=5 
-        //<---------------   fix  ------------------>
-
-
-
-
         return (
 
             <Row>
@@ -129,14 +121,7 @@ export default class Gallery extends Component {
                     <ul style={{ paddingLeft: "50%", paddingTop: "40px", listStyle: "none", fontSize: "20px" }}>
                         <li style={{ paddingBottom: "20px" }}>
 
-
-
-                        {/* --------------------------------------------fix ----------------------------------------- */}
-                            <h2 onClick={this.handleClick} data-index={i}> Duct Work </h2>
-                        {/* --------------------------------------------fix ----------------------------------------- */}
-
-
-
+                            <h2 onClick={this.handleClick} data-index="5"> Duct Work </h2>
 
                         </li>
                         <li style={{ paddingBottom: "20px" }}>
