@@ -120,21 +120,28 @@ export default class Gallery extends Component {
                 <Col size="2">
                     <ul style={{ paddingLeft: "50%", paddingTop: "40px", listStyle: "none", fontSize: "20px" }}>
                         <li style={{ paddingBottom: "20px" }}>
-
-                            <h2 onClick={this.handleClick} data-index="5"> Duct Work </h2>
-
+                            <h2 onClick={this.handleClick} data-index="1"> Duct Work </h2>
                         </li>
                         <li style={{ paddingBottom: "20px" }}>
-                            <a href="/projects2">Pipe Insulation</a>
+                            <h2 onClick={this.handleClick} data-index="2"> 2 Work </h2>
                         </li>
                         <li style={{ paddingBottom: "20px" }}>
-                            <a href="/projects2">Tanks</a>
+                            <h2 onClick={this.handleClick} data-index="3"> 3 Work </h2>
                         </li>
                         <li style={{ paddingBottom: "20px" }}>
-                            <a href="/projects2">Plumbing</a>
+                            <h2 onClick={this.handleClick} data-index="4"> 4 Work </h2>
                         </li>
                         <li style={{ paddingBottom: "20px" }}>
-                            <a href="/projects">last gallery</a>
+                            <h2 onClick={this.handleClick} data-index="5"> 5 Work </h2>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <h2 onClick={this.handleClick} data-index="6"> 6 Work </h2>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <h2 onClick={this.handleClick} data-index="7"> 7 Work </h2>
+                        </li>
+                        <li style={{ paddingBottom: "20px" }}>
+                            <h2 onClick={this.handleClick} data-index="0"> last Work </h2>
                         </li>
                     </ul>
                 </Col>
