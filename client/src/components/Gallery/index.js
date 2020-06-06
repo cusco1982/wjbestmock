@@ -112,7 +112,6 @@ export default class Gallery extends Component {
         const { thumbnails } = this.state;
         // console.log(this.state.thumbnails)
 
-
         return (
 
             <Row>
