@@ -4,9 +4,10 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-responsive-carousel": "^3.2.7",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^2.1.1"
   },
