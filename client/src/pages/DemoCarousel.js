@@ -10,15 +10,15 @@ class DemoCarousel extends Component {
             <div>
                 <Carousel>
                     <div>
-                        <img src="assets/1.jpeg" />
+                        <img src="https://japaneseprints.org/Great%20Wave%20of%20Kanagawa%20Hokusai%20Print.jpg" />
                         <p className="legend">Legend 1</p>
                     </div>
                     <div>
-                        <img src="assets/2.jpeg" />
+                        <img src="https://businessbrokercolorado.com/wp-content/uploads/2019/10/art.jpg" />
                         <p className="legend">Legend 2</p>
                     </div>
                     <div>
-                        <img src="assets/3.jpeg" />
+                        <img src="https://235bowery.s3.amazonaws.com/homecarousels/169/thumbnails/1000x400x1.jpg" />
                         <p className="legend">Legend 3</p>
                     </div>
                 </Carousel>
