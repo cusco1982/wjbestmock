@@ -74,7 +74,6 @@ class App extends Component {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/DemoCarousel" component={DemoCarousel} />
           </Wrapper>
-
           <Footer />
 
         </div>
