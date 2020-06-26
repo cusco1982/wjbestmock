@@ -72,7 +72,7 @@ class App extends Component {
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects2" component={Projects2} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/DemoCarousel" component={DemoCarousel} />
+            <Route exact path="/DemoCarousel" component={DemoCarousel} />  
           </Wrapper>
           <Footer />
 
