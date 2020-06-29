@@ -7,10 +7,40 @@ import Col from "../components/Col";
 function Main() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
+
+      {/* <Hero backgroundImage="https://bell.works/home-2019/trap-bg-img-20.jpg">
+        <h1>WJ Best Insulation</h1>
+        <h2>Home to New Jersey's Best Insulators</h2>
+      </Hero> */}
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{height:"500px"}}>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://bell.works/home-2019/trap-bg-img-20.jpg" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Second slide" />
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide" />
+          </div>
+        </div>
+        {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> */}
+      </div>
+
+
       <Container style={{ marginTop: 30, backgroundColor: "red" }}>
         <Col size="md-6">
           <Row>
@@ -45,9 +75,11 @@ function Main() {
         </Col>
 
         <Col size="md-6">
-
+          images
         </Col>
+
       </Container>
+
     </div>
   );
 }
