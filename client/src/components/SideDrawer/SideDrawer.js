@@ -8,7 +8,9 @@ const sideDrawer = props => {
     drawerClasses = 'side-drawer open';
   }
   return (
+
     <nav className={drawerClasses}>
+
       <ul>
         <li>
           <a href="/">Main</a>
@@ -22,8 +24,30 @@ const sideDrawer = props => {
         <li>
           <a href="/contact">Contact</a>
         </li>
+
+
+        <li>
+          Contact Us:
+  
+          P:(732)423-9671
+  
+          F:(722)333-1111
+  
+          info@wjbestinsulation.com
+  
+          2 Nora Rd
+  
+          Edison, NJ 08837
+        </li>
+
       </ul>
+
     </nav>
+
+
+
+
+
   );
 };
 

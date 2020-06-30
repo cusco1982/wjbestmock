@@ -67,6 +67,10 @@
   font-size: 1.3rem;
 }
 
+.side-drawer ul {
+ color: white;
+}
+
 .side-drawer a:hover,
 .side-drawer a:active {
   color: #fa923f;

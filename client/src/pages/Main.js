@@ -24,10 +24,10 @@ function Main() {
             <img class="d-block w-100" src="https://bell.works/home-2019/trap-bg-img-20.jpg" alt="First slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide" />
+            <img class="d-block w-100" src="https://www.snipsmag.com/ext/resources/issues/2017/March/phenolic-ductwork/Brooklyn-Middle-School.jpg" alt="Second slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide" />
+            <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/591cae3a3e00be81dc224093/1495053738290-NZJGV0ORYQ85VX96AX2K/ke17ZwdGBToddI8pDm48kD33KhhWEodMJvcytjXFyvFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIXZi3p8TzzCd5LBww9rBU5Je7LlmHzK_8BCOYYXjEaPwKMshLAGzx4R3EDFOm1kBS/azteca+chiller+room+1.jpg" alt="Third slide" />
           </div>
         </div>
         {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
