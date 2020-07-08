@@ -13,7 +13,7 @@ function Main() {
         <h2>Home to New Jersey's Best Insulators</h2>
       </Hero> */}
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{ height: "700px" }}>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{ height: "610px" }}>
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -40,10 +40,19 @@ function Main() {
         </a> */}
       </div>
 
-      <Row style={{width:"100%", backgroundColor:"orange"}}>
-        <div>
-          12345678Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione accusantium ab quos impedit dolorum autem magni rem iusto nihil necessitatibus quae, totam sunt eos. Modi facere porro numquam deleniti laboriosam, voluptatem architecto debitis rerum dolorem odit impedit ratione velit quo fugit nobis accusantium praesentium repudiandae quae sed doloremque dignissimos et iste distinctio. Amet soluta recusandae nam vitae. Recusandae aut aperiam vero fuga ducimus maxime. Eveniet earum impedit repudiandae perspiciatis voluptas commodi, reiciendis ducimus tempore non, deleniti veniam autem! Vitae officia deleniti harum, quo excepturi, quasi rem, atque modi quis neque dignissimos tempora? Cumque veniam minus vel ad illum quis eum.
+      <Row style={{ backgroundColor: "orange", padding: "20px", height: "30vh" }}>
+      
+        <div style={{ backgroundColor: "yellow", padding:"10px"}}>
+          <div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolore minima omnis, ullam eveniet est amet. Porro aperiam tenetur exercitationem!
+            </p>
+            <a href="/contact">
+              QUOTE
+            </a>
+          </div>
         </div>
+
       </Row>
 
 
