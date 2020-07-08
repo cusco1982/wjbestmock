@@ -8,11 +8,6 @@ function Main() {
   return (
     <div>
 
-      {/* <Hero backgroundImage="https://bell.works/home-2019/trap-bg-img-20.jpg">
-        <h1>WJ Best Insulation</h1>
-        <h2>Home to New Jersey's Best Insulators</h2>
-      </Hero> */}
-
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{ height: "610px" }}>
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -41,22 +36,38 @@ function Main() {
       </div>
 
       <Row style={{ backgroundColor: "orange", padding: "20px", height: "30vh" }}>
-      
-        <div style={{ backgroundColor: "yellow", padding:"10px"}}>
-          <div>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolore minima omnis, ullam eveniet est amet. Porro aperiam tenetur exercitationem!
-            </p>
-            <a href="/contact">
-              QUOTE
-            </a>
+
+
+
+        <div style={{ backgroundColor: "yellow" }}>
+
+
+          <p style={{background:"white", margin: "auto",width:"50%"}}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolore minima omnis, ullam eveniet est amet. Porro aperiam tenetur exercitationem!
+          </p>
+
+
+          <div style={{ textAlign: "center", background: "red", width: "50%", margin: "auto", height: "140px" }}>
+            <a href="/contact" style={{ fontSize: "25px" }}>
+              Lorem ipsum dolor sit amet consectetur. A <br />QUOTE
+              </a>
           </div>
+
         </div>
+
+
+
 
       </Row>
 
 
-      <Container style={{ marginTop: 30, backgroundColor: "red" }}>
+
+
+
+
+
+
+      <Container style={{ marginTop: 30, backgroundColor: "green" }}>
         <Col size="md-6">
           <Row>
             <Col size="md-12">
@@ -94,6 +105,12 @@ function Main() {
         </Col>
 
       </Container>
+
+
+
+
+
+
 
     </div>
   );
