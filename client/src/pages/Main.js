@@ -60,6 +60,19 @@ function Main() {
 
       </Row>
 
+      <Row style={{height:"500px", backgroundColor:"grey"}}>
+
+        <Col size="md-6">
+        hello 
+        </Col>
+
+        <Col size="md-6">
+        world
+        </Col>
+
+
+      </Row>
+
 
 
 
