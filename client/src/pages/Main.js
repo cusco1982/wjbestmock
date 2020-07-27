@@ -67,7 +67,10 @@ function Main() {
         </Col>
 
         <Col size="md-6">
-        world
+        <a href="/projects">
+          projects
+        </a>
+
         </Col>
 
 

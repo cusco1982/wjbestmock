@@ -21,19 +21,21 @@ class Services extends Component {
 
 
 
+        <h1 style={{ textAlign: "center", paddingTop: "20px", paddingBottom: "20px", paddingLeft: "50%", backgroundColor: "whitesmoke" }}>
+          <a href="" style={{color:"black"}}>
+            Services
+          </a>
+        </h1>
+
         <Container style={{ paddingTop: "20px" }}>
 
 
 
 
-          <h1 style={{ textAlign: "center", paddingTop: "20px", paddingBottom: "20px" }}>
-            Services
-          </h1>
-
           <ImgGrid />
 
 
-                                {/* ------------ Fix this ------------ */}
+          {/* ------------ Fix this ------------ */}
           <br />
           <br />
           <br />
