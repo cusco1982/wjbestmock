@@ -60,16 +60,19 @@ function Main() {
 
       </Row>
 
-      <Row style={{height:"500px", backgroundColor:"grey"}}>
+      <Row style={{ height: "500px", backgroundColor: "grey" }}>
 
-        <Col size="md-6">
-        hello 
+        <Col size="md-6" style={{color:"white"}}>
+          Have a look at some of our previous work!
         </Col>
 
         <Col size="md-6">
-        <a href="/projects">
-          projects
-        </a>
+          <div>
+            <a href="/projects">
+            <button type="button" class="btn btn-primary">Gallery</button>
+
+            </a>
+          </div>
 
         </Col>
 
