@@ -4,6 +4,9 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
+
+
+
 function Main() {
   return (
     <div>
@@ -19,10 +22,10 @@ function Main() {
             <img class="d-block w-100" src="https://bell.works/home-2019/trap-bg-img-20.jpg" alt="First slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://www.snipsmag.com/ext/resources/issues/2017/March/phenolic-ductwork/Brooklyn-Middle-School.jpg" alt="Second slide" />
+            <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Second slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://images.squarespace-cdn.com/content/v1/591cae3a3e00be81dc224093/1495053738290-NZJGV0ORYQ85VX96AX2K/ke17ZwdGBToddI8pDm48kD33KhhWEodMJvcytjXFyvFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIXZi3p8TzzCd5LBww9rBU5Je7LlmHzK_8BCOYYXjEaPwKMshLAGzx4R3EDFOm1kBS/azteca+chiller+room+1.jpg" alt="Third slide" />
+            <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/blueprintslider1.jpg" alt="Third slide" />
           </div>
         </div>
         {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -34,6 +37,56 @@ function Main() {
           <span class="sr-only">Next</span>
         </a> */}
       </div>
+
+      {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
+
+
+
+      <Row>
+
+        <Container style={{marginTop: "150px", marginBottom:"100px"}}>
+
+
+            <h2 style={{ textAlign: "center", marginBottom:"50px", fontSize:"50px", fontWeight:"normal" }}>
+              No job too big. No job too small.
+            </h2>
+
+            <ul style={{width:"300px", marginLeft:"auto", marginRight:"auto", fontSize:"25px"}}>
+              <li>Licensed Contractor</li>
+
+              <li>Luxury Finishing</li>
+
+              <li>Professional Carpentry</li>
+
+              <li>Exceptional Framing</li>
+
+              <li>Fully Insured with Permits</li>
+            </ul>
+
+        </Container>
+
+
+
+
+
+
+
+
+
+
+
+      </Row>
+
+
+
+
+
+
+
+
+
+      {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
+
 
       <Row style={{ backgroundColor: "orange", padding: "20px", height: "30vh" }}>
 
@@ -56,20 +109,25 @@ function Main() {
         </div>
 
 
-
-
       </Row>
+
+
+      {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
+
+
+
+
 
       <Row style={{ height: "500px", backgroundColor: "grey" }}>
 
-        <Col size="md-6" style={{color:"white"}}>
+        <Col size="md-6" style={{ color: "white" }}>
           Have a look at some of our previous work!
         </Col>
 
         <Col size="md-6">
           <div>
             <a href="/projects">
-            <button type="button" class="btn btn-primary">Gallery</button>
+              <button type="button" class="btn btn-primary">Gallery</button>
 
             </a>
           </div>
@@ -80,6 +138,7 @@ function Main() {
       </Row>
 
 
+      {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
 
 
