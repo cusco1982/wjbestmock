@@ -44,43 +44,47 @@ function Main() {
 
       <Row>
 
-        <Container style={{marginTop: "150px", marginBottom:"100px"}}>
+        <Container style={{ marginTop: "150px", marginBottom: "20px" }}>
 
 
-            <h2 style={{ textAlign: "center", marginBottom:"50px", fontSize:"50px", fontWeight:"normal" }}>
-              No job too big. No job too small.
+          <h2 style={{ textAlign: "center", marginBottom: "50px", fontSize: "50px", fontWeight: "normal" }}>
+            No job too big. No job too small.
             </h2>
 
-            <ul style={{width:"300px", marginLeft:"auto", marginRight:"auto", fontSize:"25px"}}>
-              <li>Licensed Contractor</li>
+          <ul style={{ width: "300px", marginLeft: "auto", marginRight: "auto", fontSize: "25px" }}>
+            <li>Licensed Contractor</li>
 
-              <li>Luxury Finishing</li>
+            <li>Luxury Finishing</li>
 
-              <li>Professional Carpentry</li>
+            <li>Professional Carpentry</li>
 
-              <li>Exceptional Framing</li>
+            <li>Exceptional Framing</li>
 
-              <li>Fully Insured with Permits</li>
-            </ul>
+            <li>Fully Insured with Permits</li>
+          </ul>
 
         </Container>
 
+        <div style={{ width: "80%", marginLeft: "auto", marginRight: "auto" }}>
+          <p style={{ margin: "40px", fontSize: "22px", width: "80%", marginRight: "auto", marginLeft: "auto", height: "200px" }}>
+            TARGET NY CONSTRUCTION WAS FOUNDED IN 2002 WITH THE PHILOSOPHY OF DELIVERING TOP QUALITY, TRUSTED PERFORMANCE, ECONOMY FOR THE CLIENT, SAFETY, ABILITY TO DELIVER EVERY PROJECT, LARGE OR SMALL, IN A TIMELY MANNER AND HIGH BUSINESS ETHICS. OUR COMMITMENT TO EXCELLENCE HAS GAINED US A REPUTATION, IN A HIGHLY COMPETITIVE MARKET OF SUPERIOR WORKMANSHIP CHARACTERIZED BY ITS CREW OF HONEST, HARDWORKING, HIGHLY SKILLED PROFESSIONALS.
+            </p>
 
+          <hr style={{
+            color: "rgba(31,37,38,.15)",
+            backgroundColor: "rgba(31,37,38,.15)",
+            height: "2px",
+            marginTop: "32px",
+            marginBottom: "32px",
+            borderWidth: 0,
+            borderStyle: "none",
+            boxSizing: "content-box"
+          }} />
 
-
-
-
-
-
-
+        </div>
 
 
       </Row>
-
-
-
-
-
 
 
 
@@ -91,22 +95,21 @@ function Main() {
       <Row style={{ backgroundColor: "orange", padding: "20px", height: "30vh" }}>
 
 
-
-        <div style={{ backgroundColor: "yellow" }}>
-
-
-          <p style={{ background: "white", margin: "auto", width: "50%" }}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni dolore minima omnis, ullam eveniet est amet. Porro aperiam tenetur exercitationem!
-          </p>
-
-
-          <div style={{ textAlign: "center", background: "red", width: "50%", margin: "auto", height: "140px" }}>
-            <a href="/contact" style={{ fontSize: "25px" }}>
-              Lorem ipsum dolor sit amet consectetur. A <br />QUOTE
-              </a>
-          </div>
-
+        <Col size="md-6">
+          <div style={{ fontSize: "30px" }}>
+            Check out some of our previous projects!
         </div>
+        </Col>
+
+        <Col size="md-6">
+
+          <a href="/projects">hello</a>
+          
+        </Col>
+
+      
+
+
 
 
       </Row>
@@ -118,7 +121,7 @@ function Main() {
 
 
 
-      <Row style={{ height: "500px", backgroundColor: "grey" }}>
+      <Row style={{ height: "500px", backgroundColor: "grey", marginTop: "40px" }}>
 
         <Col size="md-6" style={{ color: "white" }}>
           Have a look at some of our previous work!
@@ -142,24 +145,29 @@ function Main() {
 
 
 
+
+
+
       <Row>
-
-
         <Container style={{ marginTop: 30, backgroundColor: "green" }}>
+
           <Col size="md-6">
+
             <Row>
               <Col size="md-12">
                 <h1>Welcome To WJ Best Insulation!</h1>
               </Col>
             </Row>
+
+
+
             <Row>
               <Col size="md-12">
-                <p>
-                  At WJ Best Insulation we specialize in all things insulation!
-            </p>
-                <p>
-                  Here's a view of some of our work. Click on the link to view more!
-            </p>
+
+                <p>At WJ Best Insulation we specialize in all things insulation!</p>
+
+                <p>Here's a view of some of our work. Click on the link to view more!</p>
+
                 <p>
                   Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
                   tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
@@ -173,18 +181,15 @@ function Main() {
                   eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
                   interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
                   massa.
-            </p>
+                </p>
               </Col>
             </Row>
+
+
+
           </Col>
 
-          <Col size="md-6">
-            images
-        </Col>
-
         </Container>
-
-
       </Row>
 
 
