@@ -7,6 +7,8 @@ import i3 from "../pics/trees.jpg";
 import i4 from "../pics/night.jpg";
 import i5 from "../pics/astronaut.jpg";
 
+// import Row from "../components/Row"
+
 
 function New() {
 
@@ -35,7 +37,7 @@ function New() {
 
 
 
-            <div className="slider" style={{background:"yellow"}}>
+            <div className="slider" style={{ background: "yellow" }}>
                 {sliderArr.map((item, index) => {
                     return (
                         <div key={index} className="slide" style={{ transform: `translateX(${x}%)` }}>
@@ -55,8 +57,16 @@ function New() {
                 </button>
             </div>
 
-            <div style={{background:"red"}}>
-                hello
+            <div className="slider-bottom" style={{ background: "red" }}>
+                {sliderArr.map((item, index) => {
+                    return (
+                        <row>
+                            <div>
+                                {item}
+                            </div>
+                        </row>
+                    )
+                })}
             </div>
 
         </div>
