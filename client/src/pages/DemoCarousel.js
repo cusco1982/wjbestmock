@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom'; 
-// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
-// import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Container from "../components/Container";
 import Row from "../components/Row";
 
@@ -11,8 +7,8 @@ import Row from "../components/Row";
 class DemoCarousel extends Component {
     render() {
         return (
-            <div>
-                <Row>
+
+                <Row style={{paddingTop:"150px"}}>
                     <Container>
 
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -44,12 +40,11 @@ class DemoCarousel extends Component {
 
                     </Container>
                 </Row>
-            </div>
+
 
         );
     }
 }
-// ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
 
 
 export default DemoCarousel;

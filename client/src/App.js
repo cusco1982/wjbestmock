@@ -11,6 +11,9 @@ import Projects2 from "./pages/Projects2";
 
 import DemoCarousel from "./pages/DemoCarousel";
 
+import New from "./pages/New";
+
+
 // components
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
@@ -63,7 +66,6 @@ class App extends Component {
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-          {/* <Navbar /> */}
           {/* -------------------------------------------- nav component -------------------------------------------- ******/}
 
           <Wrapper>
@@ -72,7 +74,8 @@ class App extends Component {
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/projects2" component={Projects2} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/DemoCarousel" component={DemoCarousel} />  
+            <Route exact path="/DemoCarousel" component={DemoCarousel} />
+            <Route exact path="/New" component={New} />
           </Wrapper>
           <Footer />
 
@@ -83,16 +86,3 @@ class App extends Component {
   }
 }
 export default App;
-// return(
-//   <Router>
-// <div>
-//   <Nav />
-//   {/* <Jumbotron /> */}
-//   <Switch>
-//     {/* <Route exact path="/" component={Books}/> */}
-//     {/* <Route exact path="/saved" component={Books}/> */}
-//     <Route exact path="/" component={Main} />
-//   </Switch>
-// </div>
-//   </Router >
-// )
