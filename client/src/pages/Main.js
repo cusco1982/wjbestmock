@@ -92,7 +92,7 @@ function Main() {
       {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
 
-      <Row style={{ backgroundColor: "orange", padding: "20px", height: "30vh" }}>
+      <Row style={{ backgroundColor: "orange", padding: "20px", height: "60vh" }}>
 
 
         <Col size="md-6">
@@ -103,11 +103,16 @@ function Main() {
 
         <Col size="md-6">
 
-          <a href="/projects">hello</a>
-          
-        </Col>
 
-      
+        
+
+          <div>
+            <a href="/projects">
+            <img style={{marginLeft:"40%"}} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTaIjLOsub_HuQlphffsdZMT7axacobmt0p9w&usqp=CAU" alt=""/>
+            </a>
+          </div>
+
+        </Col>
 
 
 
