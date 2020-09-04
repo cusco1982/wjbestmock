@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../components/Slider.scss";
+import "../components/Sliders.scss";
 import ImgComp from "../components/ImgComp";
 // import i1 from "../pics/ductwork1.jpg";
 import i2 from "../pics/fantasy.jpg";
@@ -46,8 +46,6 @@ function New() {
                     );
                 })}
 
-
-
                 <button id="goLeft" onClick={goLeft}>
                     <i class="fas fa-chevron-left"></i>
                 </button>
@@ -57,14 +55,17 @@ function New() {
                 </button>
             </div>
 
-            <div className="slider-bottom" style={{ background: "red" }}>
+
+
+
+            <div className="slider" style={{ background: "red"}}>
                 {sliderArr.map((item, index) => {
                     return (
-                        <row>
+
                             <div>
                                 {item}
                             </div>
-                        </row>
+
                     )
                 })}
             </div>

@@ -13,9 +13,18 @@ class DemoCarousel extends Component {
 
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators" style={{backgroundColor:"red"}}>
+
+
+
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+                                {/* <img class="d-block w-100" src="https://i.pinimg.com/originals/c6/04/b4/c604b48cf7f3e150cb5fe7215481bb13.jpg" alt="First slide" /> */}
+
+
+
+
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
