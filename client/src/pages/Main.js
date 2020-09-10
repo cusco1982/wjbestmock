@@ -5,6 +5,8 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import DemoCarousel from "./DemoCarousel.js";
 
+import "./Main.css";
+
 
 
 class Main extends Component {
@@ -12,24 +14,44 @@ class Main extends Component {
     return (
 
 
-      <div style={{overflowX:"hidden"}}>
+      <div style={{ overflowX: "hidden" }}>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{ height: "610px", backgroundColor:"orange", padding:"30px" }}>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style={{ height: "700px", backgroundColor: "orange", padding: "30px" }}>
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="https://bell.works/home-2019/trap-bg-img-20.jpg" alt="First slide" />
+
+
+
+            <div class="carousel-item active" >
+              <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="First slide" />
+
+              <Row style={{ padding: "20px" }}>
+
+                <a href="/projects" style={{textAlign:"center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px"}}>
+                  VIEW PROJECT
+                </a>
+
+
+              </Row>
+
             </div>
+
+
+
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Second slide" />
+              <img class="d-block w-100" src="" alt="Second slide" />
             </div>
+
+
             <div class="carousel-item">
               <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/blueprintslider1.jpg" alt="Third slide" />
             </div>
+
+
           </div>
           {/* <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,14 +115,14 @@ class Main extends Component {
 
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
-<DemoCarousel/>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" style={{ backgroundColor: "orange", padding: "60px", height: "600px" }}>
           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item">
@@ -113,11 +135,11 @@ class Main extends Component {
               <img class="d-block w-100" src="https://www.constructionandstone.com/wp-content/uploads/2017/05/Clifton-5-1100x733.jpg" alt="Second slide" />
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -127,32 +149,6 @@ class Main extends Component {
 
 
 
-
-
-        {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
-
-
-
-
-
-        <Row style={{ height: "500px", backgroundColor: "grey", marginTop: "40px" }}>
-
-          <Col size="md-6" style={{ color: "white" }}>
-            Have a look at some of our recent work!
-        </Col>
-
-          <Col size="md-6">
-            <div>
-              <a href="/projects">
-                <button type="button" class="btn btn-primary">Gallery</button>
-
-              </a>
-            </div>
-
-          </Col>
-
-
-        </Row>
 
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
