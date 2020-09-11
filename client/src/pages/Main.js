@@ -11,8 +11,11 @@ import "./Main.css";
 
 class Main extends Component {
   render() {
-    return (
+    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    let d;
+    d = new Date();
 
+    return (
 
       <div style={{ overflowX: "hidden" }}>
 
@@ -30,13 +33,16 @@ class Main extends Component {
               <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="First slide" />
 
               <Row style={{ padding: "20px" }}>
-
-                <a href="/projects" style={{textAlign:"center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px"}}>
+                <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px" }}>
                   VIEW PROJECT
                 </a>
-
-
               </Row>
+
+              <Row>
+                &nbsp; &nbsp; &nbsp; {months[d.getMonth()]} {d.getFullYear()}
+              </Row>
+
+
 
             </div>
 
