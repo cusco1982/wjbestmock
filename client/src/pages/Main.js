@@ -36,17 +36,28 @@ class Main extends Component {
 
 
             <div class="carousel-item active">
+
+
               <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Second slide" />
-              <div class="carousel-caption d-none d-md-block">
-                <h2>
+
+
+              <div class="carousel-caption d-none d-md-block" style={{position:"absolute",left:"0",top:"0",bottom:"50%"}}>
+
+                <h2 style={{}}>
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
-                <p>
+<br/>
+<br/>
+<br/>
+                <p style={{backgroundColor:"yellow"}}>
                   <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px" }}>
                     VIEW PROJECT
                   </a>
                 </p>
+                
               </div>
+
+
             </div>
 
 
