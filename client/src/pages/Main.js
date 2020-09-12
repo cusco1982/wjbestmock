@@ -23,6 +23,7 @@ class Main extends Component {
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
+
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -35,30 +36,41 @@ class Main extends Component {
           <div class="carousel-inner">
 
 
-            <div class="carousel-item active">
 
+
+            <div class="carousel-item active">
 
               <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Second slide" />
 
 
-              <div class="carousel-caption d-none d-md-block" style={{position:"absolute",left:"0",top:"0",bottom:"50%"}}>
+              <div class="carousel-caption d-none d-md-block" style={{position:"absolute",left:"0",top:"0",right:"60%"}}>
 
-                <h2 style={{}}>
+                <h2>
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
-<br/>
-<br/>
-<br/>
-                <p style={{backgroundColor:"yellow"}}>
-                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px" }}>
+
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+                <p>
+                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight:"25%" }}>
                     VIEW PROJECT
                   </a>
                 </p>
                 
               </div>
 
-
             </div>
+
 
 
             <div class="carousel-item" >
