@@ -78,7 +78,6 @@ class Main extends Component {
 
 
 
-
             <div class="carousel-item">
               <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Third slide" />
             </div>
