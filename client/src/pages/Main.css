@@ -4,14 +4,14 @@ a:link {
 
 a:hover {
     font-size: 105%;
-    color: white;
+    color: black;
 }
 
 a{
-    color:white;
+    color:black;
 }
 
-.date{
-  color:whitesmoke;
-  font-size: 30px;
+h2{
+  color:black;
+  font-size: 40px;
 }
