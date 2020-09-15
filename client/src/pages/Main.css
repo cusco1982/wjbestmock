@@ -11,7 +11,8 @@ a{
     color:black;
 }
 
-h2{
+.date{
   color:black;
   font-size: 40px;
+  float:left;
 }

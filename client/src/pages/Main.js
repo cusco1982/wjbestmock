@@ -44,15 +44,21 @@ class Main extends Component {
 
               <div class="carousel-caption d-none d-md-block" style={{position:"absolute",left:"0",top:"0",right:"60%"}}>
 
-                <h2>
+<br/>
+<br/>
+
+
+                <h2 className="date">
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
 
                 <br/>
+<br/>
                 <br/>
-                <br/>
-                <br/>
-                <br/>
+
+
                 <br/>
                 <br/>
                 <br/>
