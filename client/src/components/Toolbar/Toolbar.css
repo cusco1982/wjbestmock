@@ -70,6 +70,9 @@
 .nav-links a:active {
   font-size: 115%;
   color: #fa923f;
+  border-radius:25px;
+  border:2px solid black;
+  padding:10px;
 }
 
 @media (max-width: 768px) {

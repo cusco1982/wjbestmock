@@ -71,7 +71,7 @@ class Main extends Component {
                 <br />
 
                 <p>
-                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
+                  <a href="/projects" style={{textAlign:"center",borderRadius:"25px",border:"2px solid white",padding:"20px",width:"200px",height:"75px",marginRight:"25%"}}>
                     VIEW PROJECT
                   </a>
                 </p>
