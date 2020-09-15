@@ -5,12 +5,12 @@
 }
 
 .toolbar {
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #521751;
-  height: 56px; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 100%; */
+  /* background: #521751; */
+  /* height: 56px; */
   height: 160px;
   display:flex;
   justify-content:space-around;
@@ -18,7 +18,7 @@
   min-height: 8vh;
   background-color: whitesmoke;
   font-family: 'Poppins', sans-serif;
-  padding-bottom: 40px
+  padding-bottom: 40px;
 }
 
 .toolbar__navigation {

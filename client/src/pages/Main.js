@@ -4,6 +4,10 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import DemoCarousel from "./DemoCarousel.js";
+import img1 from "../photos/pexels.jpeg";
+import img2 from "../photos/pexels2.jpeg";
+import img3 from "../photos/cranes.jpeg";
+
 
 import "./Main.css";
 
@@ -21,7 +25,7 @@ class Main extends Component {
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
 
 
           <ol class="carousel-indicators">
@@ -39,39 +43,39 @@ class Main extends Component {
 
             <div class="carousel-item active">
 
-              <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Second slide" />
+              <img class="d-block w-100" src={img1} alt="First slide" />
 
 
-              <div class="carousel-caption d-none d-md-block" style={{position:"absolute",left:"0",top:"0",right:"60%"}}>
+              <div class="carousel-caption d-none d-md-block" style={{ position: "absolute", left: "0", top: "0", right: "60%" }}>
 
-<br/>
-<br/>
+                <br />
+                <br />
 
 
                 <h2 className="date">
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
 
-                <br/>
-<br/>
-                <br/>
+                <br />
+                <br />
+                <br />
 
 
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
 
                 <p>
-                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight:"25%" }}>
+                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
                     VIEW PROJECT
                   </a>
                 </p>
-                
+
               </div>
 
             </div>
@@ -79,13 +83,13 @@ class Main extends Component {
 
 
             <div class="carousel-item" >
-              <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Third slide" />
+              <img class="d-block w-100" src={img2} alt="Second slide" />
             </div>
 
 
 
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://www.easterninsulation.com/wp-content/uploads/2016/04/BASF-1.jpg" alt="Third slide" />
+              <img class="d-block w-100" src={img3} alt="Third slide" />
             </div>
 
           </div>

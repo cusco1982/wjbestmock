@@ -8,11 +8,16 @@ a:hover {
 }
 
 a{
-    color:black;
+    color:whitesmoke;
 }
 
 .date{
-  color:black;
+  color:whitesmoke;
   font-size: 40px;
   float:left;
+}
+
+.carousel-item img{
+  height: 800px;
+  width: 60px;
 }
