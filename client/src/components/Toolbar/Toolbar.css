@@ -19,6 +19,7 @@
   background-color: whitesmoke;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 40px;
+  border-bottom:4px solid black;
 }
 
 .toolbar__navigation {
@@ -71,7 +72,7 @@
   font-size: 115%;
   color: #fa923f;
   border-radius:25px;
-  border:2px solid black;
+  /* border:2px solid black; */
   padding:10px;
 }
 

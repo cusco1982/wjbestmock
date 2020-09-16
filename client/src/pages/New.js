@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "../components/Sliders.scss";
 import ImgComp from "../components/ImgComp";
-// import i1 from "../pics/ductwork1.jpg";
-import i2 from "../pics/fantasy.jpg";
-import i3 from "../pics/trees.jpg";
-import i4 from "../pics/night.jpg";
-import i5 from "../pics/astronaut.jpg";
+// import i1 from "../photos/ductwork1.jpg";
+import i2 from "../photos/fantasy.jpg";
+import i3 from "../photos/trees.jpg";
+import i4 from "../photos/night.jpg";
+import i5 from "../photos/astronaut.jpg";
 
 // import Row from "../components/Row"
 

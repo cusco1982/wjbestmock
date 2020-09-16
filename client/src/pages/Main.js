@@ -19,7 +19,7 @@ class Main extends Component {
     let d;
     d = new Date();
     return (
-      <div style={{ overflowX: "hidden" }}>
+      <div style={{ overflowX:"hidden" }}>
 
 
 
@@ -43,7 +43,7 @@ class Main extends Component {
 
             <div class="carousel-item active">
 
-              <img class="d-block w-100" src={img1} alt="First slide" />
+              <img class="d-block w-100" src={img2} alt="First slide" />
 
 
               <div class="carousel-caption d-none d-md-block" style={{ position: "absolute", left: "0", top: "0", right: "60%" }}>
@@ -51,28 +51,25 @@ class Main extends Component {
                 <br />
                 <br />
 
-
                 <h2 className="date">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
 
-                <br />
-                <br />
-                <br />
-
-
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
                 <p>
                   <a href="/projects" style={{textAlign:"center",borderRadius:"25px",border:"2px solid white",padding:"20px",width:"200px",height:"75px",marginRight:"25%"}}>
                     VIEW PROJECT
+                  </a>
+                </p>
+
+                <br/> <br/> <br/> 
+                
+                <p>
+                  <a href="/services" style={{textAlign:"center",borderRadius:"25px",border:"2px solid white",padding:"20px",width:"200px",height:"75px",marginRight:"25%"}}>
+                    VIEW SERVICES
                   </a>
                 </p>
 

@@ -10,6 +10,9 @@ const toolbar = props => (
 
 
         <div className="logo"><a href="/">WJ Best Insulation</a></div>
+        <br/>
+        <div>NYskylineimgunderlogo</div>
+
 
 
         <div className="nav-links">
