@@ -19,7 +19,6 @@ const toolbar = props => (
         </div>
 
 
-
         <div className="nav-links">
             <ul>
                 <li><a href="/">Main</a></li>
