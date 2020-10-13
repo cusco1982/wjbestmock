@@ -19,7 +19,7 @@ class Main extends Component {
     let d;
     d = new Date();
     return (
-      <div style={{ overflowX:"hidden" }}>
+      <div style={{ overflowX: "hidden" }}>
 
 
 
@@ -34,6 +34,7 @@ class Main extends Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
           {/* -------------------------------------------- */}
+
 
 
           {/* -------------------------------------------- */}
@@ -57,18 +58,18 @@ class Main extends Component {
                   {months[d.getMonth()]} {d.getFullYear()}
                 </h2>
 
-                <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
 
                 <p>
-                  <a href="/projects" style={{textAlign:"center",borderRadius:"25px",border:"2px solid white",padding:"20px",width:"200px",height:"75px",marginRight:"25%"}}>
+                  <a href="/projects" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
                     VIEW PROJECT
                   </a>
                 </p>
 
-                <br/> <br/> <br/> 
-                
+                <br /> <br /> <br />
+
                 <p>
-                  <a href="/services" style={{textAlign:"center",borderRadius:"25px",border:"2px solid white",padding:"20px",width:"200px",height:"75px",marginRight:"25%"}}>
+                  <a href="/services" style={{ textAlign: "center", borderRadius: "25px", border: "2px solid white", padding: "20px", width: "200px", height: "75px", marginRight: "25%" }}>
                     VIEW SERVICES
                   </a>
                 </p>
@@ -108,6 +109,18 @@ class Main extends Component {
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
+
+
+
+        <Row>
+          <Container>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae ratione eum! Facere impedit, quia mollitia fugiat cum, soluta aut in temporibus doloribus odit optio excepturi cupiditate quisquam ad sit numquam libero exercitationem? Labore dicta assumenda dolores atque expedita officiis quibusdam praesentium accusantium perferendis voluptate? Magni numquam, quo nesciunt voluptas id culpa quia! Nobis nostrum laudantium nemo, id quos molestiae nihil fuga, odit aliquid deleniti dolore reiciendis, iusto sed praesentium accusantium commodi exercitationem. Laborum assumenda officia sed ex sequi non dolorem rem pariatur rerum quam. Voluptas nam rem, omnis minus, laboriosam at et, eaque repellat tenetur odit corporis minima. Quae!</div>
+          </Container>
+        </Row>
+
+
+
+        {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
 
         <Row>
