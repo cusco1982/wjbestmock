@@ -109,14 +109,64 @@ class Main extends Component {
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+ 
 
-
-
-        <Row>
-          <Container>
+        <Row style={{backgroundColor:"red"}}>
+          <Container style={{borderTop:""}}>
             <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae ratione eum! Facere impedit, quia mollitia fugiat cum, soluta aut in temporibus doloribus odit optio excepturi cupiditate quisquam ad sit numquam libero exercitationem? Labore dicta assumenda dolores atque expedita officiis quibusdam praesentium accusantium perferendis voluptate? Magni numquam, quo nesciunt voluptas id culpa quia! Nobis nostrum laudantium nemo, id quos molestiae nihil fuga, odit aliquid deleniti dolore reiciendis, iusto sed praesentium accusantium commodi exercitationem. Laborum assumenda officia sed ex sequi non dolorem rem pariatur rerum quam. Voluptas nam rem, omnis minus, laboriosam at et, eaque repellat tenetur odit corporis minima. Quae!</div>
           </Container>
         </Row>
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+
+
+
+
+        {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
+
+
+
+
+        <div id="carouselExample" class="carousel slide" data-ride="carousel" style={{ backgroundColor: "orange", padding: "60px", height: "400px" }}>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://www.constructionandstone.com/wp-content/uploads/2017/05/Clifton-5-1100x733.jpg" alt="Third slide" />
+            </div>
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="https://www.constructionandstone.com/wp-content/uploads/2017/05/Clifton-6-1100x733.jpg" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://www.constructionandstone.com/wp-content/uploads/2017/05/Clifton-5-1100x733.jpg" alt="Second slide" />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
 
 
 
@@ -173,7 +223,7 @@ class Main extends Component {
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
 
-
+        {/* 
         <div id="carouselExample" class="carousel slide" data-ride="carousel" style={{ backgroundColor: "orange", padding: "60px", height: "600px" }}>
           <ol class="carousel-indicators">
             <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
@@ -199,7 +249,7 @@ class Main extends Component {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> */}
 
 
 

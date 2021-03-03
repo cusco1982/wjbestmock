@@ -14,9 +14,6 @@ const toolbar = props => (
         <div className="logo"><a href="/">WJ Best Insulation</a></div>
         {/* <br/> */}
 
-        <div>
-        <img style={{height:"206px",width:"690px"}} src={skyline} alt="skyline"/>
-        </div>
 
 
         <div className="nav-links">

@@ -51,7 +51,10 @@ class Contact extends Component {
           <div className="left col-md-6">
             <div style={{ marginLeft: 'calc((100%-980px)* 0.5)' }}>
 
-              <h1>Contact Us</h1> <br />
+              <h1>Reach Out to Us</h1>
+              <br />
+              <p>Fill out the form below and a member of our team will be in touch with you soon.</p>
+              <br />
               <form
                 onSubmit={this.submitForm}
                 action="https://formspree.io/xjvolkon"
