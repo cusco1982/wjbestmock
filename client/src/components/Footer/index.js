@@ -10,7 +10,87 @@ function Footer() {
 
 
 
-<span style={{ height: "21.7vh", color: "black", background: "whitesmoke" }}>
+
+     <div style={{ height: "10vh", background: "#191a1c" }}></div>
+
+
+        <div>
+
+          <div style={{ background: "#191a1c", width: "33.3%", textAlign: "center", display: "inline-block" }}>
+            <div style={{ color: "white" }}>
+              CALL US
+            </div>
+            <div style={{ width: "5%", marginLeft: "47%" }}>
+              <hr style={{ color: "white", backgroundColor: "white", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+            <div style={{ color: "#9da1a5" }}>
+              P: (732) 423-9671
+            </div>
+            <div style={{ color: "#9da1a5" }}>
+              F: (111) 222-3333
+            </div>
+          </div>
+
+          <div style={{ background: "#191a1c", width: "33.4%", textAlign: "center", display: "inline-block", borderLeft: "3px solid #9da1a5", borderRight: "3px solid #9da1a5" }}>
+            <div style={{ color: "white" }}>
+              EMAIL US
+            </div>
+            <div style={{ width: "5%", marginLeft: "47%" }}>
+              <hr style={{ color: "#9da1a5", backgroundColor: "#9da1a5", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+
+
+
+
+            <div style={{ color: "#9da1a5" }}>
+              <a href="mailto:wjbestinsulation@gmail.com">
+                WJBestInsulation@gmail.com
+              </a>
+            </div>
+            <div>&nbsp;</div>
+          </div>
+
+
+
+
+
+
+          <div style={{ background: "#191a1c", width: "33.3%", textAlign: "center", display: "inline-block" }}>
+            <div style={{ color: "white" }}>
+              VISIT US
+            </div>
+            <div style={{ width: "5%", marginLeft: "47%", position: "relative" }}>
+              <hr style={{ color: "#9da1a5", backgroundColor: "white", height: "2px", marginTop: "32px", marginBottom: "32px", borderWidth: 0, borderStyle: "none", boxSizing: "content-box" }} />
+            </div>
+            <div style={{ color: "#9da1a5" }}>
+              2 NORA RD
+            </div>
+            <div style={{ color: "#9da1a5" }}>
+              EDISON, NJ 08837
+            </div>
+          </div>
+
+        </div>
+
+        <div style={{ height: "12vh", background: "#191a1c" }}></div>
+
+
+
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+      <span style={{ height: "21.7vh", color: "black", background: "whitesmoke" }}>
 
         <div style={{ width: "50%", background: "whitesmoke", float: "left", textAlign: "center", fontSize: "25px", padding: "5%" }}>
 

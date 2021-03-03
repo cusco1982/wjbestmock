@@ -116,10 +116,10 @@ class Main extends Component {
         <br />
         <br />
         <br />
- 
 
-        <Row style={{backgroundColor:"red"}}>
-          <Container style={{borderTop:""}}>
+
+        <Row style={{ backgroundColor: "red" }}>
+          <Container style={{ borderTop: "" }}>
             <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae ratione eum! Facere impedit, quia mollitia fugiat cum, soluta aut in temporibus doloribus odit optio excepturi cupiditate quisquam ad sit numquam libero exercitationem? Labore dicta assumenda dolores atque expedita officiis quibusdam praesentium accusantium perferendis voluptate? Magni numquam, quo nesciunt voluptas id culpa quia! Nobis nostrum laudantium nemo, id quos molestiae nihil fuga, odit aliquid deleniti dolore reiciendis, iusto sed praesentium accusantium commodi exercitationem. Laborum assumenda officia sed ex sequi non dolorem rem pariatur rerum quam. Voluptas nam rem, omnis minus, laboriosam at et, eaque repellat tenetur odit corporis minima. Quae!</div>
           </Container>
         </Row>
@@ -307,6 +307,9 @@ class Main extends Component {
 
           </Container>
         </Row>
+
+
+
 
 
 
