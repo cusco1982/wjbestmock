@@ -9,6 +9,14 @@ import img2 from "../photos/pexels2.jpeg";
 import img3 from "../photos/cranes.jpeg";
 
 
+
+import insulationmask from "../photos/insulationmask.png"
+import safety from "../photos/safety.png"
+import truck from "../photos/truck.png"
+import insulation from "../photos/insulation.png"
+import consulting from "../photos/consulting.png"
+
+
 import "./Main.css";
 
 
@@ -20,6 +28,32 @@ class Main extends Component {
     d = new Date();
     return (
       <div style={{ overflowX: "hidden" }}>
+
+
+
+
+        <div style={{ height: "9vh", background: "black" }}>
+
+          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop: "1%" }}>
+
+            <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>
+              <a href="/services">SERVICES</a>
+            </ul>
+
+            <ul style={{ display: "inline-block", width: "20%" }}>
+              <a href="/projects">OUR WORK</a>
+            </ul>
+
+            <ul style={{ display: "inline-block", width: "20%" }}>
+            <a href="/projects2">projects2</a>  
+            </ul>
+
+            <ul style={{ display: "inline-block", width: "20%" }}>
+            <a href="/contact">CONTACT US</a>  
+            </ul>
+          </li>
+
+        </div>
 
 
 
@@ -107,7 +141,7 @@ class Main extends Component {
 
         </div>
 
-        {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
+        {/* --------------------------------------------   free quote     --------------------------------------------        -------------------------------------------- */}
 
         <br />
         <br />
@@ -116,13 +150,35 @@ class Main extends Component {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <div className="contact" style={{ background: "white", color: "black" }}>
+
+          <div style={{ fontSize: "300%", textAlign: "center" }}>
 
 
-        <Row style={{ backgroundColor: "red" }}>
-          <Container style={{ borderTop: "" }}>
-            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae ratione eum! Facere impedit, quia mollitia fugiat cum, soluta aut in temporibus doloribus odit optio excepturi cupiditate quisquam ad sit numquam libero exercitationem? Labore dicta assumenda dolores atque expedita officiis quibusdam praesentium accusantium perferendis voluptate? Magni numquam, quo nesciunt voluptas id culpa quia! Nobis nostrum laudantium nemo, id quos molestiae nihil fuga, odit aliquid deleniti dolore reiciendis, iusto sed praesentium accusantium commodi exercitationem. Laborum assumenda officia sed ex sequi non dolorem rem pariatur rerum quam. Voluptas nam rem, omnis minus, laboriosam at et, eaque repellat tenetur odit corporis minima. Quae!</div>
-          </Container>
-        </Row>
+            <div>
+              Need a FREE quote? Click here!
+            </div>
+
+
+            <a href="contact">
+
+              <button type="button" class="btn btn-light" style={{ fontSize: "70%", borderColor: "black" }}>FREE QUOTE</button>
+
+            </a>
+
+
+
+          </div>
+
+        </div>
+
+
+
+        <br />
+        <br />
+        <br />
 
 
         <br />
@@ -133,6 +189,88 @@ class Main extends Component {
 
 
 
+
+        {/* ------------------------------------------------  SERVICES IMAGE GRID  ---------------------------------------------------------------------------------------------- */}
+        <div style={{ background: "#191a1c" }}>
+
+          <div style={{ background: "#191a1c", height: "8vh" }}></div>
+
+          <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Abatement</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+      </p>
+              </div>
+            </div>
+
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={insulation} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Construction</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+      </p>
+              </div>
+            </div>
+
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={consulting} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Insulation</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+      </p>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ background: "#191a1c", height: "2vh" }}></div>
+          {/* -----------------------------------------------------------------VVV  2ND ROW  VVV------------------------------------------------------------------------------------- */}
+
+          <div style={{ height: "15vh", color: "whitesmoke", justifyContent: "center", display: "flex" }}>
+
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={safety} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Demolition</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+    </p>
+              </div>
+            </div>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={truck} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Carting</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+    </p>
+              </div>
+            </div>
+            <div style={{ display: "inline-block", width: "25%", height: "100%", background: "#191a1c" }}>
+              <img style={{ width: "20%", display: "inline-block" }} src={insulationmask} />
+              <div style={{ width: "80%", display: "inline-block", paddingTop: "3%" }}>
+                <h2 style={{ paddingLeft: "10px" }}>Consulting</h2>
+                <p style={{ width: "80%", fontSize: "125%", paddingTop: "10px" }}>
+                  Asbestos, lead, and mold abatement and remediation services.
+    </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div style={{ background: "#191a1c", height: "8vh" }}></div>
+
+        </div>
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------ */}
+
+        <br />
+        <br />
+        <br />
+        <br />
 
 
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
@@ -307,9 +445,6 @@ class Main extends Component {
 
           </Container>
         </Row>
-
-
-
 
 
 
