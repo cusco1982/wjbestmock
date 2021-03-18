@@ -26,7 +26,7 @@ const sideDrawer = props => {
         </li>
 
 
-        <li>
+        {/* <li>
           Contact Us:
         </li>
 
@@ -48,7 +48,7 @@ const sideDrawer = props => {
 
         <li>
           Edison, NJ 08837
-        </li>
+        </li> */}
 
       </ul>
 

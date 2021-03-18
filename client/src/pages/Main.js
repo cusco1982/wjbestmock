@@ -45,11 +45,11 @@ class Main extends Component {
             </ul>
 
             <ul style={{ display: "inline-block", width: "20%" }}>
-            <a href="/projects2">projects2</a>  
+              <a href="/projects2">projects2</a>
             </ul>
 
             <ul style={{ display: "inline-block", width: "20%" }}>
-            <a href="/contact">CONTACT US</a>  
+              <a href="/contact">CONTACT US</a>
             </ul>
           </li>
 
@@ -147,13 +147,13 @@ class Main extends Component {
         <br />
         <br />
 
-        <li><a style={{color:"black"}} href="/">Main</a></li>
-                <li><a style={{color:"black"}} href="/services">Services</a></li>
-                <li><a style={{color:"black"}} href="/projects">Projects</a></li>
-                <li><a style={{color:"black"}} href="/projects2">Projects2</a></li>
-                <li><a style={{color:"black"}} href="/contact">Contact</a></li>
-                <li><a style={{color:"black"}} href="/DemoCarousel">DemoCarousel</a></li>
-                <li><a style={{color:"black"}} href="/New">New</a></li>
+        <li><a style={{ color: "black" }} href="/">Main</a></li>
+        <li><a style={{ color: "black" }} href="/services">Services</a></li>
+        <li><a style={{ color: "black" }} href="/projects">Projects</a></li>
+        <li><a style={{ color: "black" }} href="/projects2">Projects2</a></li>
+        <li><a style={{ color: "black" }} href="/contact">Contact</a></li>
+        <li><a style={{ color: "black" }} href="/DemoCarousel">DemoCarousel</a></li>
+        <li><a style={{ color: "black" }} href="/New">New</a></li>
         <br />
         <br />
         <br />
