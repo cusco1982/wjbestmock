@@ -28,15 +28,25 @@ const sideDrawer = props => {
 
         <li>
           Contact Us:
-  
-          P:(732)423-9671
-  
+        </li>
+
+        <li>
+          P:(732) 423-9671
+        </li>
+
+        <li>
           F:(722)333-1111
-  
+        </li>
+
+        <li>
           info@wjbestinsulation.com
-  
+        </li>
+
+        <li>
           2 Nora Rd
-  
+        </li>
+
+        <li>
           Edison, NJ 08837
         </li>
 
