@@ -31,32 +31,6 @@ class Main extends Component {
 
 
 
-
-        <div style={{ height: "9vh", background: "black" }}>
-
-          <li style={{ color: "white", textAlign: "center", listStyle: "none", fontSize: "25px", paddingTop: "1%" }}>
-
-            <ul style={{ display: "inline-block", width: "20%", paddingTop: "12px" }}>
-              <a href="/services">SERVICES</a>
-            </ul>
-
-            <ul style={{ display: "inline-block", width: "20%" }}>
-              <a href="/projects">OUR WORK</a>
-            </ul>
-
-            <ul style={{ display: "inline-block", width: "20%" }}>
-              <a href="/projects2">projects2</a>
-            </ul>
-
-            <ul style={{ display: "inline-block", width: "20%" }}>
-              <a href="/contact">CONTACT US</a>
-            </ul>
-          </li>
-
-        </div>
-
-
-
         {/* --------------------------------------------        --------------------------------------------        -------------------------------------------- */}
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="50000">
