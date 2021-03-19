@@ -17,7 +17,9 @@ function New() {
         <ImgComp src={i2} />,
         <ImgComp src={i3} />,
         <ImgComp src={i4} />,
-        <ImgComp src={i5} />
+        <ImgComp src={i5} />,
+        <ImgComp src={i3} />,
+        <ImgComp src={i3} />
     ];
 
     const [x, setX] = useState(0);
@@ -40,9 +42,16 @@ function New() {
             <div className="slider" style={{ background: "yellow" }}>
                 {sliderArr.map((item, index) => {
                     return (
-                        <div key={index} className="slide" style={{ transform: `translateX(${x}%)` }}>
+
+
+                        <div key={index} className="slide" style={{ transform: `translateX(${x}%)`}}>
                             {item}
+
+
                         </div>
+
+
+
                     );
                 })}
 
@@ -54,6 +63,17 @@ function New() {
                     <i class="fas fa-chevron-right"></i>
                 </button>
             </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

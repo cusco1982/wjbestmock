@@ -9,7 +9,16 @@ function ImgComp({ src }) {
         height: "auto"
     }
 
-    return <img src={src} alt="slide-img" style={imgStyles}></img>;
+    return (
+        <row>
+
+            <img src={src} alt="slide-img" style={imgStyles}></img>
+        </row>
+
+    
+
+    )
+
 }
 
 
