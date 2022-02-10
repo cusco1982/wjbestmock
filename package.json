@@ -23,7 +23,7 @@
     "if-env": "^1.0.4",
     "lodash": "^4.17.14",
     "mongoose": "^5.5.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react-responsive-carousel": "^3.2.7"
   }
 }
